@@ -1,6 +1,5 @@
-[comment]: <> (This is a comment, it will not be included)
-# gallery-graphical-dsls-emfStencil
-Gallery of Graphical DSLs built with EMF-Stencil
+[//]: # (gallery-graphical-dsls-emfStencil)
+# Gallery of Graphical DSLs built with EMF-Stencil
 
 Folders Description:
 * __caex-environment__: Environment for the CAEX language. This DSL represents the hierarchical structure of production systems. 
