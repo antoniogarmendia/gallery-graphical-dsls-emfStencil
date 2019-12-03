@@ -2,6 +2,6 @@
 Gallery of Graphical DSLs built with EMF-Stencil
 
 Folders Description:
-* __caex-environment__: 
-* Nested bullet
-* Sub-nested bullet etc
+* __caex-environment__: Environment for CAEX DSL. This language represents the hierarchical structure of production systems. 
+* __crala-environment__: 
+* __mindstorms-robot-editor__:
