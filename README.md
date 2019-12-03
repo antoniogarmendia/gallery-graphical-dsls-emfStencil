@@ -1,3 +1,4 @@
+[comment]: <> (This is a comment, it will not be included)
 # gallery-graphical-dsls-emfStencil
 Gallery of Graphical DSLs built with EMF-Stencil
 
