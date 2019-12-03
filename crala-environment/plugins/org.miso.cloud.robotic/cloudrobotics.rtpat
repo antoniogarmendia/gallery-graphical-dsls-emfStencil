@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rtpat:PatternInstances xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dslpat="http://mondo.org/dslPatterns" xmlns:rtpat="http://mondo.org/runtimePatterns">
+  <appliedPatterns ident="Modularity">
+    <pattern href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0"/>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+      <element href="cloudrobotics.ecore#//CloudSystem"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/icons/cloudSystem.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//CloudSystem/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//CloudSystem/arq"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//CloudSystem/configs"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="cloudrobotics.ecore#//ArchitectureSpecification"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/icons/achitecture.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//ArchitectureSpecification/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="archi">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.4"/>
+      <element href="cloudrobotics.ecore#//Configuration"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/icons/configuration.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//Configuration/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//Configuration/configSystems"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="cloudrobotics.ecore#//ConfigurationSystem"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/icons/configurationSystem.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="cloudrobotics.ecore#//ConfigurationSystem/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="config">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+  </appliedPatterns>
+  <appliedPatterns ident="Graph-based Representation">
+    <pattern href="patterns/repository.dslpatterns#//@categories.2/@patterns.0"/>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.0"/>
+      <element href="cloudrobotics.diagram#/2/ArchitectureSpecification"/>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="cloudrobotics.diagram#/2/Robot"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/google-icons/Robot/Robot0.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="cloudrobotics.diagram#/2/SensorType"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/google-icons/SensorType/SensorType2.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.9"/>
+        <element href="cloudrobotics.diagram#/2/SensorType/name"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="cloudrobotics.diagram#/2/Role"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.cloud.robotic/google-icons/Role/Role5.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.9"/>
+        <element href="cloudrobotics.diagram#/2/Role/name"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+      <element href="cloudrobotics.diagram#/2/ConnectionElement"/>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.1"/>
+        <element href="cloudrobotics.diagram#/2/ConnectionElement/source"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.2"/>
+        <element href="cloudrobotics.diagram#/2/ConnectionElement/target"/>
+      </referenceInstances>
+    </classInstances>
+  </appliedPatterns>
+</rtpat:PatternInstances>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated mindstorms-sample -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="mindstorms.presentation.MindstormsModelWizardID"
+            name="%_UI_MindstormsModelWizard_label"
+            class="mindstorms.presentation.MindstormsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/MindstormsModelFile.gif">
+         <description>%_UI_MindstormsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated mindstorms-sample -->
+      <editor
+            id="mindstorms.presentation.MindstormsEditorID"
+            name="%_UI_MindstormsEditor_label"
+            icon="icons/full/obj16/MindstormsModelFile.gif"
+            extensions="mindstorms"
+            class="mindstorms.presentation.MindstormsEditor"
+            contributorClass="mindstorms.presentation.MindstormsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

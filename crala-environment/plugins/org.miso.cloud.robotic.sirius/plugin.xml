@@ -1,0 +1,52 @@
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">	
+	<editor
+		name = "Archi Sirius Model Editor" 
+		extensions = "archi"
+		icon = "icons/sirius_icon.png"
+		launcher="org.miso.cloud.robotic.sirius.editor.GraphicalSiriusEditor"
+		id="org.miso.cloud.robotic.sirius.projectarchi.editors.FigureEditor"
+		default="false">
+	</editor>
+	<editor
+		name = "Config Sirius Model Editor" 
+		extensions = "config"
+		icon = "icons/sirius_icon.png"
+		launcher="org.miso.cloud.robotic.sirius.editor.GraphicalSiriusEditor"
+		id="org.miso.cloud.robotic.sirius.projectconfig.editors.FigureEditor"
+		default="false">
+	</editor>
+   </extension>
+   <!--Avoid the creation of Sirius Project
+   <extension
+         point="org.modular.sirius.definition.ext">
+      <new_client
+            class="org.miso.cloud.robotic.sirius.ext.CreateDesignSiriusProject">
+      </new_client>
+   </extension>	
+   -->
+   <!--Create Sirius Project -->	
+	<extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="org.miso.cloud.robotic.sirius.createProject"
+            name="Graphical Generation Project">
+      </category>
+      <wizard
+            category="org.miso.cloud.robotic.sirius.createProject"
+            class="org.miso.cloud.robotic.sirius.ext.CreateSiriusViewPointSpecification"
+            icon="icons/sirius_icon.png"
+            id="org.miso.cloud.robotic.sirius.NewViewPointSirius"
+            name="org.miso.cloud.robotic Graphical Generation Project"
+            project="true">
+      </wizard>
+   </extension>	
+   <!-- Register the viewpoint --> 
+   <extension point="org.eclipse.sirius.componentization">
+    <component class="org.miso.cloud.robotic.sirius.Activator"
+               id="org.miso.cloud.robotic.sirius"
+	       name="project">
+    </component>
+  </extension>	  
+</plugin>

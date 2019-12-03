@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MetaModelGraph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MetaModelGraph="http://miso.org/MetaModelGraph/1.0">
+  <subgraph root="//@subgraph.0/@nodes.0">
+    <nodes compositions="//@subgraph.0/@relations.0 //@subgraph.0/@relations.1 //@subgraph.0/@relations.2 //@subgraph.0/@relations.3 //@subgraph.0/@relations.4 //@subgraph.0/@relations.5 //@subgraph.0/@relations.6 //@subgraph.0/@relations.7 //@subgraph.0/@relations.8 //@subgraph.0/@relations.9 //@subgraph.0/@relations.10 //@subgraph.0/@relations.11" icon="/caex.caex30.edit/icons/full/obj16/CAEXFile.gif" extension="">
+      <eClass href="CAEX30.ecore#//CAEXFile"/>
+      <enumModularNotation>Project</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXFile/fileName"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.0 //@subgraph.0/@relations.12 //@subgraph.0/@relations.19 //@subgraph.0/@relations.24 //@subgraph.0/@relations.30 //@subgraph.0/@relations.36 //@subgraph.0/@relations.42 //@subgraph.0/@relations.48 //@subgraph.0/@relations.57 //@subgraph.0/@relations.71 //@subgraph.0/@relations.80 //@subgraph.0/@relations.90 //@subgraph.0/@relations.102 //@subgraph.0/@relations.110 //@subgraph.0/@relations.116 //@subgraph.0/@relations.121 //@subgraph.0/@relations.129 //@subgraph.0/@relations.137 //@subgraph.0/@relations.145 //@subgraph.0/@relations.153 //@subgraph.0/@relations.164 //@subgraph.0/@relations.172 //@subgraph.0/@relations.177 //@subgraph.0/@relations.185 //@subgraph.0/@relations.192 //@subgraph.0/@relations.197">
+      <eClass href="CAEX30.ecore#//Description"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.1 //@subgraph.0/@relations.13 //@subgraph.0/@relations.20 //@subgraph.0/@relations.25 //@subgraph.0/@relations.31 //@subgraph.0/@relations.37 //@subgraph.0/@relations.43 //@subgraph.0/@relations.49 //@subgraph.0/@relations.58 //@subgraph.0/@relations.72 //@subgraph.0/@relations.81 //@subgraph.0/@relations.91 //@subgraph.0/@relations.103 //@subgraph.0/@relations.111 //@subgraph.0/@relations.117 //@subgraph.0/@relations.122 //@subgraph.0/@relations.130 //@subgraph.0/@relations.138 //@subgraph.0/@relations.146 //@subgraph.0/@relations.154 //@subgraph.0/@relations.165 //@subgraph.0/@relations.173 //@subgraph.0/@relations.178 //@subgraph.0/@relations.186 //@subgraph.0/@relations.193 //@subgraph.0/@relations.198">
+      <eClass href="CAEX30.ecore#//Version"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.12 //@subgraph.0/@relations.13 //@subgraph.0/@relations.14 //@subgraph.0/@relations.15 //@subgraph.0/@relations.16" relations="//@subgraph.0/@relations.2 //@subgraph.0/@relations.14 //@subgraph.0/@relations.21 //@subgraph.0/@relations.26 //@subgraph.0/@relations.32 //@subgraph.0/@relations.38 //@subgraph.0/@relations.44 //@subgraph.0/@relations.50 //@subgraph.0/@relations.59 //@subgraph.0/@relations.73 //@subgraph.0/@relations.82 //@subgraph.0/@relations.92 //@subgraph.0/@relations.104 //@subgraph.0/@relations.112 //@subgraph.0/@relations.118 //@subgraph.0/@relations.123 //@subgraph.0/@relations.131 //@subgraph.0/@relations.139 //@subgraph.0/@relations.147 //@subgraph.0/@relations.155 //@subgraph.0/@relations.166 //@subgraph.0/@relations.174 //@subgraph.0/@relations.179 //@subgraph.0/@relations.187 //@subgraph.0/@relations.194 //@subgraph.0/@relations.199">
+      <eClass href="CAEX30.ecore#//Revision"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.3 //@subgraph.0/@relations.15 //@subgraph.0/@relations.22 //@subgraph.0/@relations.27 //@subgraph.0/@relations.33 //@subgraph.0/@relations.39 //@subgraph.0/@relations.45 //@subgraph.0/@relations.51 //@subgraph.0/@relations.60 //@subgraph.0/@relations.74 //@subgraph.0/@relations.83 //@subgraph.0/@relations.93 //@subgraph.0/@relations.105 //@subgraph.0/@relations.113 //@subgraph.0/@relations.119 //@subgraph.0/@relations.124 //@subgraph.0/@relations.132 //@subgraph.0/@relations.140 //@subgraph.0/@relations.148 //@subgraph.0/@relations.156 //@subgraph.0/@relations.167 //@subgraph.0/@relations.175 //@subgraph.0/@relations.180 //@subgraph.0/@relations.188 //@subgraph.0/@relations.195 //@subgraph.0/@relations.200">
+      <eClass href="CAEX30.ecore#//Copyright"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.17 //@subgraph.0/@relations.18" relations="//@subgraph.0/@relations.4 //@subgraph.0/@relations.16 //@subgraph.0/@relations.23 //@subgraph.0/@relations.28 //@subgraph.0/@relations.34 //@subgraph.0/@relations.40 //@subgraph.0/@relations.46 //@subgraph.0/@relations.52 //@subgraph.0/@relations.54 //@subgraph.0/@relations.61 //@subgraph.0/@relations.75 //@subgraph.0/@relations.84 //@subgraph.0/@relations.94 //@subgraph.0/@relations.106 //@subgraph.0/@relations.114 //@subgraph.0/@relations.120 //@subgraph.0/@relations.125 //@subgraph.0/@relations.133 //@subgraph.0/@relations.141 //@subgraph.0/@relations.149 //@subgraph.0/@relations.157 //@subgraph.0/@relations.168 //@subgraph.0/@relations.176 //@subgraph.0/@relations.181 //@subgraph.0/@relations.189 //@subgraph.0/@relations.196 //@subgraph.0/@relations.201">
+      <eClass href="CAEX30.ecore#//AdditionalInformation"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.5">
+      <eClass href="CAEX30.ecore#//SourceDocumentInformation"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.19 //@subgraph.0/@relations.20 //@subgraph.0/@relations.21 //@subgraph.0/@relations.22 //@subgraph.0/@relations.23" relations="//@subgraph.0/@relations.6">
+      <eClass href="CAEX30.ecore#//ExternalReference"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.24 //@subgraph.0/@relations.25 //@subgraph.0/@relations.26 //@subgraph.0/@relations.27 //@subgraph.0/@relations.28 //@subgraph.0/@relations.29" relations="//@subgraph.0/@relations.7" icon="/caex.caex30.edit/icons/full/obj16/InstanceHierarchy.gif" extension="hrchy">
+      <eClass href="CAEX30.ecore#//InstanceHierarchy"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.30 //@subgraph.0/@relations.31 //@subgraph.0/@relations.32 //@subgraph.0/@relations.33 //@subgraph.0/@relations.34 //@subgraph.0/@relations.35" relations="//@subgraph.0/@relations.8" icon="/caex.caex30.edit/icons/full/obj16/InterfaceClassLib.gif" extension="">
+      <eClass href="CAEX30.ecore#//InterfaceClassLib"/>
+      <enumModularNotation>Package</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.36 //@subgraph.0/@relations.37 //@subgraph.0/@relations.38 //@subgraph.0/@relations.39 //@subgraph.0/@relations.40 //@subgraph.0/@relations.41" relations="//@subgraph.0/@relations.9" icon="/caex.caex30.edit/icons/full/obj16/RoleClassLib.gif" extension="">
+      <eClass href="CAEX30.ecore#//RoleClassLib"/>
+      <enumModularNotation>Package</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.42 //@subgraph.0/@relations.43 //@subgraph.0/@relations.44 //@subgraph.0/@relations.45 //@subgraph.0/@relations.46 //@subgraph.0/@relations.47" relations="//@subgraph.0/@relations.10" icon="/caex.caex30.edit/icons/full/obj16/SystemUnitClassLib.gif" extension="">
+      <eClass href="CAEX30.ecore#//SystemUnitClassLib"/>
+      <enumModularNotation>Package</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.48 //@subgraph.0/@relations.49 //@subgraph.0/@relations.50 //@subgraph.0/@relations.51 //@subgraph.0/@relations.52 //@subgraph.0/@relations.53" relations="//@subgraph.0/@relations.11">
+      <eClass href="CAEX30.ecore#//AttributeLib"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.55 //@subgraph.0/@relations.56" subClasses="//@subgraph.0/@relations.54" relations="//@subgraph.0/@relations.17 //@subgraph.0/@relations.55" directSubclasses="//@subgraph.0/@relations.54">
+      <eClass href="../../caex.anytype/model/GenericAnyType.ecore#//GenericElement"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.18 //@subgraph.0/@relations.56">
+      <eClass href="../../caex.anytype/model/GenericAnyType.ecore#//GenericAttribute"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.57 //@subgraph.0/@relations.58 //@subgraph.0/@relations.59 //@subgraph.0/@relations.60 //@subgraph.0/@relations.61 //@subgraph.0/@relations.62 //@subgraph.0/@relations.63 //@subgraph.0/@relations.64 //@subgraph.0/@relations.65 //@subgraph.0/@relations.66 //@subgraph.0/@relations.67 //@subgraph.0/@relations.68" relations="//@subgraph.0/@relations.29 //@subgraph.0/@relations.64 //@subgraph.0/@relations.88 //@subgraph.0/@relations.97 //@subgraph.0/@relations.160" icon="/caex.caex30.edit/icons/full/obj16/InternalElement.gif" extension="internal">
+      <eClass href="CAEX30.ecore#//InternalElement"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.71 //@subgraph.0/@relations.72 //@subgraph.0/@relations.73 //@subgraph.0/@relations.74 //@subgraph.0/@relations.75 //@subgraph.0/@relations.76 //@subgraph.0/@relations.77 //@subgraph.0/@relations.78" subClasses="//@subgraph.0/@relations.69 //@subgraph.0/@relations.70" relations="//@subgraph.0/@relations.35 //@subgraph.0/@relations.63 //@subgraph.0/@relations.77 //@subgraph.0/@relations.78 //@subgraph.0/@relations.96 //@subgraph.0/@relations.127 //@subgraph.0/@relations.135 //@subgraph.0/@relations.136 //@subgraph.0/@relations.143 //@subgraph.0/@relations.144 //@subgraph.0/@relations.159" directSubclasses="//@subgraph.0/@relations.69 //@subgraph.0/@relations.70" icon="/caex.caex30.edit/icons/full/obj16/InterfaceClass.gif" extension="interface">
+      <eClass href="CAEX30.ecore#//InterfaceClass"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.80 //@subgraph.0/@relations.81 //@subgraph.0/@relations.82 //@subgraph.0/@relations.83 //@subgraph.0/@relations.84 //@subgraph.0/@relations.85 //@subgraph.0/@relations.86 //@subgraph.0/@relations.87" subClasses="//@subgraph.0/@relations.79" relations="//@subgraph.0/@relations.41 //@subgraph.0/@relations.87 //@subgraph.0/@relations.152" directSubclasses="//@subgraph.0/@relations.79" icon="/caex.caex30.edit/icons/full/obj16/RoleClass.gif" extension="role">
+      <eClass href="CAEX30.ecore#//RoleClass"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.90 //@subgraph.0/@relations.91 //@subgraph.0/@relations.92 //@subgraph.0/@relations.93 //@subgraph.0/@relations.94 //@subgraph.0/@relations.95 //@subgraph.0/@relations.96 //@subgraph.0/@relations.97 //@subgraph.0/@relations.98 //@subgraph.0/@relations.99 //@subgraph.0/@relations.100" subClasses="//@subgraph.0/@relations.88 //@subgraph.0/@relations.89" relations="//@subgraph.0/@relations.47 //@subgraph.0/@relations.67 //@subgraph.0/@relations.100 //@subgraph.0/@relations.163" directSubclasses="//@subgraph.0/@relations.88 //@subgraph.0/@relations.89" icon="/caex.caex30.edit/icons/full/obj16/SystemUnitClass.gif" extension="system">
+      <eClass href="CAEX30.ecore#//SystemUnitClass"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.102 //@subgraph.0/@relations.103 //@subgraph.0/@relations.104 //@subgraph.0/@relations.105 //@subgraph.0/@relations.106 //@subgraph.0/@relations.107 //@subgraph.0/@relations.108 //@subgraph.0/@relations.109" subClasses="//@subgraph.0/@relations.101" relations="//@subgraph.0/@relations.53 //@subgraph.0/@relations.62 //@subgraph.0/@relations.76 //@subgraph.0/@relations.85 //@subgraph.0/@relations.95 //@subgraph.0/@relations.109 //@subgraph.0/@relations.126 //@subgraph.0/@relations.134 //@subgraph.0/@relations.142 //@subgraph.0/@relations.150 //@subgraph.0/@relations.158 //@subgraph.0/@relations.171" directSubclasses="//@subgraph.0/@relations.101">
+      <eClass href="CAEX30.ecore#//Attribute"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.110 //@subgraph.0/@relations.111 //@subgraph.0/@relations.112 //@subgraph.0/@relations.113 //@subgraph.0/@relations.114 //@subgraph.0/@relations.115" relations="//@subgraph.0/@relations.65 //@subgraph.0/@relations.98 //@subgraph.0/@relations.161">
+      <eClass href="CAEX30.ecore#//SupportedRoleClass"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.116 //@subgraph.0/@relations.117 //@subgraph.0/@relations.118 //@subgraph.0/@relations.119 //@subgraph.0/@relations.120" relations="//@subgraph.0/@relations.66 //@subgraph.0/@relations.99 //@subgraph.0/@relations.162">
+      <eClass href="CAEX30.ecore#//InternalLink"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.121 //@subgraph.0/@relations.122 //@subgraph.0/@relations.123 //@subgraph.0/@relations.124 //@subgraph.0/@relations.125 //@subgraph.0/@relations.126 //@subgraph.0/@relations.127 //@subgraph.0/@relations.128" relations="//@subgraph.0/@relations.68">
+      <eClass href="CAEX30.ecore#//RoleRequirements"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.129 //@subgraph.0/@relations.130 //@subgraph.0/@relations.131 //@subgraph.0/@relations.132 //@subgraph.0/@relations.133 //@subgraph.0/@relations.134 //@subgraph.0/@relations.135 //@subgraph.0/@relations.136" relations="//@subgraph.0/@relations.69 //@subgraph.0/@relations.86 //@subgraph.0/@relations.151" icon="/caex.caex30.edit/icons/full/obj16/ExternalInterface.gif" extension="external">
+      <eClass href="CAEX30.ecore#//ExternalInterface"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.137 //@subgraph.0/@relations.138 //@subgraph.0/@relations.139 //@subgraph.0/@relations.140 //@subgraph.0/@relations.141 //@subgraph.0/@relations.142 //@subgraph.0/@relations.143 //@subgraph.0/@relations.144" relations="//@subgraph.0/@relations.70" icon="/caex.caex30.edit/icons/full/obj16/InterfaceFamily.gif" extension="">
+      <eClass href="CAEX30.ecore#//InterfaceFamily"/>
+      <enumModularNotation>Package</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.145 //@subgraph.0/@relations.146 //@subgraph.0/@relations.147 //@subgraph.0/@relations.148 //@subgraph.0/@relations.149 //@subgraph.0/@relations.150 //@subgraph.0/@relations.151 //@subgraph.0/@relations.152" relations="//@subgraph.0/@relations.79">
+      <eClass href="CAEX30.ecore#//RoleFamily"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.153 //@subgraph.0/@relations.154 //@subgraph.0/@relations.155 //@subgraph.0/@relations.156 //@subgraph.0/@relations.157 //@subgraph.0/@relations.158 //@subgraph.0/@relations.159 //@subgraph.0/@relations.160 //@subgraph.0/@relations.161 //@subgraph.0/@relations.162 //@subgraph.0/@relations.163" relations="//@subgraph.0/@relations.89" icon="/caex.caex30.edit/icons/full/obj16/SystemUnitFamily.gif" extension="sysf">
+      <eClass href="CAEX30.ecore#//SystemUnitFamily"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="CAEX30.ecore#//CAEXObject/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.164 //@subgraph.0/@relations.165 //@subgraph.0/@relations.166 //@subgraph.0/@relations.167 //@subgraph.0/@relations.168 //@subgraph.0/@relations.169 //@subgraph.0/@relations.170 //@subgraph.0/@relations.171" relations="//@subgraph.0/@relations.101">
+      <eClass href="CAEX30.ecore#//AttributeFamily"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.172 //@subgraph.0/@relations.173 //@subgraph.0/@relations.174 //@subgraph.0/@relations.175 //@subgraph.0/@relations.176" relations="//@subgraph.0/@relations.107 //@subgraph.0/@relations.169">
+      <eClass href="CAEX30.ecore#//RefSemantic"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.177 //@subgraph.0/@relations.178 //@subgraph.0/@relations.179 //@subgraph.0/@relations.180 //@subgraph.0/@relations.181 //@subgraph.0/@relations.182 //@subgraph.0/@relations.183 //@subgraph.0/@relations.184" relations="//@subgraph.0/@relations.108 //@subgraph.0/@relations.170">
+      <eClass href="CAEX30.ecore#//AttributeValueRequirement"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.185 //@subgraph.0/@relations.186 //@subgraph.0/@relations.187 //@subgraph.0/@relations.188 //@subgraph.0/@relations.189 //@subgraph.0/@relations.190 //@subgraph.0/@relations.191" relations="//@subgraph.0/@relations.115 //@subgraph.0/@relations.128">
+      <eClass href="CAEX30.ecore#//Mapping"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.182">
+      <eClass href="CAEX30.ecore#//OrdinalScaled"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.183">
+      <eClass href="CAEX30.ecore#//NominalScaled"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.184">
+      <eClass href="CAEX30.ecore#//UnknownType"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.192 //@subgraph.0/@relations.193 //@subgraph.0/@relations.194 //@subgraph.0/@relations.195 //@subgraph.0/@relations.196" relations="//@subgraph.0/@relations.190">
+      <eClass href="CAEX30.ecore#//AttributeNameMapping"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.197 //@subgraph.0/@relations.198 //@subgraph.0/@relations.199 //@subgraph.0/@relations.200 //@subgraph.0/@relations.201" relations="//@subgraph.0/@relations.191">
+      <eClass href="CAEX30.ecore#//InterfaceIDMapping"/>
+    </nodes>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.6" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/sourceDocumentInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.7" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/externalReference"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.8" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/instanceHierarchy"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.9" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/interfaceClassLib"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.10" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/roleClassLib"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.11" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/systemUnitClassLib"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.12" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="CAEX30.ecore#//CAEXFile/attributeTypeLib"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.13" parentNode="//@subgraph.0/@nodes.5">
+      <eReference href="../../caex.anytype/model/GenericAnyType.ecore#//GenericElement/nestedElements"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.14" parentNode="//@subgraph.0/@nodes.5">
+      <eReference href="../../caex.anytype/model/GenericAnyType.ecore#//GenericElement/attributes"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.7">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.7">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.7">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.7">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.7">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.15" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="CAEX30.ecore#//InstanceHierarchy/internalElement"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.9">
+      <eReference href="CAEX30.ecore#//InterfaceClassLib/interfaceClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.17" parentNode="//@subgraph.0/@nodes.10">
+      <eReference href="CAEX30.ecore#//RoleClassLib/roleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.18" parentNode="//@subgraph.0/@nodes.11">
+      <eReference href="CAEX30.ecore#//SystemUnitClassLib/systemUnitClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.12">
+      <eReference href="CAEX30.ecore#//AttributeLib/attributeType"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.5"/>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.13" parentNode="//@subgraph.0/@nodes.13">
+      <eReference href="../../caex.anytype/model/GenericAnyType.ecore#//GenericElement/nestedElements"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.14" parentNode="//@subgraph.0/@nodes.13">
+      <eReference href="../../caex.anytype/model/GenericAnyType.ecore#//GenericElement/attributes"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.15" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalElement"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.20" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/supportedRoleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.21" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalLink"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.18" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/systemUnitClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.22" parentNode="//@subgraph.0/@nodes.15">
+      <eReference href="CAEX30.ecore#//InternalElement/roleRequirements"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.23"/>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.24"/>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//InterfaceClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//InterfaceClass/interfaceClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.16">
+      <eReference href="CAEX30.ecore#//InterfaceClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.25"/>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//RoleClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.23" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//RoleClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.17" parentNode="//@subgraph.0/@nodes.17">
+      <eReference href="CAEX30.ecore#//RoleClass/roleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.15"/>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.26"/>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.15" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalElement"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.20" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/supportedRoleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.21" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalLink"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.18" parentNode="//@subgraph.0/@nodes.18">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/systemUnitClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.27"/>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.28" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//Attribute/refSemantic"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.29" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//Attribute/constraint"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.19">
+      <eReference href="CAEX30.ecore#//Attribute/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.30" parentNode="//@subgraph.0/@nodes.20">
+      <eReference href="CAEX30.ecore#//SupportedRoleClass/mappingObject"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.21">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.21">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.21">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.21">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.21">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//RoleRequirements/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//RoleRequirements/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.30" parentNode="//@subgraph.0/@nodes.22">
+      <eReference href="CAEX30.ecore#//RoleRequirements/mappingObject"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//InterfaceClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//InterfaceClass/interfaceClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.23">
+      <eReference href="CAEX30.ecore#//InterfaceClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//InterfaceClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//InterfaceClass/interfaceClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.24">
+      <eReference href="CAEX30.ecore#//InterfaceClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//RoleClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.23" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//RoleClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.17" parentNode="//@subgraph.0/@nodes.25">
+      <eReference href="CAEX30.ecore#//RoleClass/roleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.16" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/externalInterface"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.15" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalElement"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.20" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/supportedRoleClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.21" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/internalLink"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.18" parentNode="//@subgraph.0/@nodes.26">
+      <eReference href="CAEX30.ecore#//SystemUnitClass/systemUnitClass"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.28" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//Attribute/refSemantic"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.29" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//Attribute/constraint"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.19" parentNode="//@subgraph.0/@nodes.27">
+      <eReference href="CAEX30.ecore#//Attribute/attribute"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.28">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.28">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.28">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.28">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.28">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.31" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//AttributeValueRequirement/ordinalScaledType"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.32" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//AttributeValueRequirement/nominalScaledType"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.33" parentNode="//@subgraph.0/@nodes.29">
+      <eReference href="CAEX30.ecore#//AttributeValueRequirement/unknownType"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.34" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//Mapping/attributeNameMapping"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.35" parentNode="//@subgraph.0/@nodes.30">
+      <eReference href="CAEX30.ecore#//Mapping/interfaceIDMapping"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.34">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.34">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.34">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.34">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.34">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.35">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/description"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.35">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/version"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.35">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/revision"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.35">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/copyright"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.35">
+      <eReference href="CAEX30.ecore#//CAEXBasicObject/additionalInformation"/>
+    </relations>
+  </subgraph>
+</MetaModelGraph:Graph>

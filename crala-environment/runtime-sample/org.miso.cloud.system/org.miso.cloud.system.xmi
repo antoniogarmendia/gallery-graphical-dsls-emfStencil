@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cloudRobotics:CloudSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cloudRobotics="http://miso.es/cloudRobotics" name="org.miso.cloud.system">
+  <arq href="Spec1.archi#/"/>
+  <configs href="ConfigSystem/ConfigSystem.1#/"/>
+</cloudRobotics:CloudSystem>

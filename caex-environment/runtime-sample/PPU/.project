@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PPU</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.epsilon.concordance.builder.ConcordanceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>caex.caex30.modular.caexfile.ModularIncrementalProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>caex.caex30.modular.caexfile.ModularNature</nature>
+		<nature>org.eclipse.epsilon.concordance.nature.ConcordanceNature</nature>
+	</natures>
+</projectDescription>

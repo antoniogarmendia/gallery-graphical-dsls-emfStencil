@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloudrobotics -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="cloudRobotics.presentation.cloudRoboticsModelWizardID"
+            name="%_UI_cloudRoboticsModelWizard_label"
+            class="cloudRobotics.presentation.cloudRoboticsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/cloudRoboticsModelFile.gif">
+         <description>%_UI_cloudRoboticsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloudrobotics -->
+      <editor
+            id="cloudRobotics.presentation.cloudRoboticsEditorID"
+            name="%_UI_cloudRoboticsEditor_label"
+            icon="icons/full/obj16/cloudRoboticsModelFile.gif"
+            extensions="cloudrobotics"
+            class="cloudRobotics.presentation.cloudRoboticsEditor"
+            contributorClass="cloudRobotics.presentation.cloudRoboticsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

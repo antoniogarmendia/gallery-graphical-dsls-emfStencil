@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.miso.mindstorms.sample.edit;singleton:=true
+Automatic-Module-Name: org.miso.mindstorms.sample.edit
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: mindstorms.provider.MindstormssampleEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: mindstorms.provider
+Require-Bundle: org.eclipse.core.runtime,
+ org.miso.mindstorms.sample;visibility:=reexport,
+ org.eclipse.emf.edit;visibility:=reexport
+Eclipse-LazyStart: true
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,294 @@
+<plugin>
+   <extension-point id="CloudSystemModularBuilders" name="org.miso.cloud.robotic.builders" schema="schema/CloudSystemModularBuilders.exsd"/>
+   <extension-point id="CloudSystemModularListeners" name="org.miso.cloud.robotic.listeners" schema="schema/CloudSystemModularListeners.exsd"/>	
+   <extension
+         point="org.eclipse.ui.newWizards">
+	  <!-- PROJECT CATEGORY -->
+      <category
+            id="org.miso.cloud.robotic.projectCloudSystem"
+            name="CloudSystem">
+      </category>
+	  <!-- PACKAGE CATEGORY -->	
+	<category
+            id="org.miso.cloud.robotic.projectCloudSystem.Packages"
+            name="CloudSystem Folders"
+			parentCategory="org.miso.cloud.robotic.projectCloudSystem">
+      </category> 
+	  <!-- FILE CATEGORY -->
+	  <category
+            id="org.miso.cloud.robotic.projectCloudSystem.Files"
+            name="CloudSystem Files"
+			parentCategory="org.miso.cloud.robotic.projectCloudSystem">
+      </category>	  
+     <wizard
+            category="org.miso.cloud.robotic.projectCloudSystem"
+            class="org.miso.cloud.robotic.cloudsystemmodular.wizard.CloudSystemNewProjectWizard"
+            id="org.miso.cloud.robotic.cloudsystem.CloudSystemNewProject"
+            name="CloudSystem Project"
+            project="true"
+			icon="icons/cloudSystem.png">
+      </wizard>
+	<!--WIZARD PACKAGE CATEGORY -->
+	 <wizard
+			category="org.miso.cloud.robotic.projectCloudSystem/org.miso.cloud.robotic.projectCloudSystem.Packages"
+			icon="icons/configuration.png"
+			class="org.miso.cloud.robotic.cloudsystemmodular.wizard.folder.ConfigurationCreateFolderWizard"
+			name="Configuration Folder"
+			id="org.miso.cloud.robotic.configuration.configurationNewPackage"
+			project="false"
+	 		>	
+	 </wizard>
+	<!--WIZARD FILE CATEGORY -->
+	
+	  <wizard
+			category="org.miso.cloud.robotic.projectCloudSystem/org.miso.cloud.robotic.projectCloudSystem.Files"
+			icon="icons/achitecture.png"
+			class="org.miso.cloud.robotic.cloudsystemmodular.wizard.file.ArchitectureSpecificationCreateFileWizard"
+			name="ArchitectureSpecification File"
+			id="org.miso.cloud.robotic.architecturespecification.architecturespecificationNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="org.miso.cloud.robotic.projectCloudSystem/org.miso.cloud.robotic.projectCloudSystem.Files"
+			icon="icons/configurationSystem.png"
+			class="org.miso.cloud.robotic.cloudsystemmodular.wizard.file.ConfigurationSystemCreateFileWizard"
+			name="ConfigurationSystem File"
+			id="org.miso.cloud.robotic.configurationsystem.configurationsystemNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+   </extension>
+   <!--MULTI-PAGE EDITOR PAGE EXTENSION-->  
+	<extension
+         point="org.eclipse.ui.editors">
+	
+	<editor
+		name = "Archi  Model Editor"
+		extensions = "archi"
+		icon = "icons/achitecture.png"
+		contributorClass="org.miso.cloud.robotic.cloudsystemmodular.editors.cloudRoboticsModularMultiPageEditorContributor"
+		class = "org.miso.cloud.robotic.cloudsystemmodular.editors.cloudRoboticsModularMultiPageEditor"
+		id="org.miso.cloud.robotic.projectcloudsystem.editors.FigureEditorArchi"
+		default="true">
+	</editor>
+	<editor
+		name = "Config  Model Editor"
+		extensions = "config"
+		icon = "icons/configurationSystem.png"
+		contributorClass="org.miso.cloud.robotic.cloudsystemmodular.editors.cloudRoboticsModularMultiPageEditorContributor"
+		class = "org.miso.cloud.robotic.cloudsystemmodular.editors.cloudRoboticsModularMultiPageEditor"
+		id="org.miso.cloud.robotic.projectcloudsystem.editors.FigureEditorConfig"
+		default="true">
+	</editor>
+	</extension>
+	<!--XMI FILE EXTENSION PARSER-->
+	<extension
+       point="org.eclipse.emf.ecore.extension_parser">
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="config">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="archi">
+    </parser>
+	<!--XMI FILE EXTENSION PARSER FOR PACKAGES-->
+		<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="1">
+		</parser>
+	</extension>
+	<!--PROJECT MODULAR NATURE-->
+   <extension
+         id="ModularNature"
+         name="Modular Nature"
+         point="org.eclipse.core.resources.natures">
+         <runtime>
+        	 <run class="org.miso.cloud.robotic.cloudsystemmodular.wizard.CloudSystemNewProjectNature">
+         </run>
+      </runtime>
+		<builder
+               id="org.miso.cloud.robotic.modular.cloudsystem.ModularIncrementalProjectBuilder">
+         </builder>
+   </extension>
+   <extension
+         id="ModularIncrementalProjectBuilder"
+         name="Modular Incremental Builder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            callOnEmptyDelta="false"
+            hasNature="true"
+            isConfigurable="false">
+         <run
+               class="org.miso.cloud.robotic.cloudsystemmodular.wizard.ModularIncrementalProjectBuilder">
+         </run></builder>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.projectNatureImages">
+         <image
+            icon="icons/cloudSystem.png"
+            id="org.miso.cloud.roboticcloudsystem.image.Folder"
+            natureId="org.miso.cloud.robotic.modular.cloudsystem.ModularNature">
+      </image>
+   </extension> 
+   <!-- PROJECT DECORATOR -->
+	<extension
+         point="org.eclipse.ui.decorators">
+      <decorator 
+       	adaptable="true"
+            id="resources.folder.decorator.cloudsystem"
+            label="Folder Resource Decorator"
+            lightweight="true"
+            location="REPLACE"
+            state="true"
+            objectClass="org.eclipse.core.resources.IResource"
+            class="org.miso.cloud.robotic.cloudsystemmodular.decorator.ModularProjectDecorator">
+      </decorator>
+   </extension> 
+    <!-- PROPERTIES VIEW-->
+   <extension
+		point = "org.eclipse.jdt.ui.javaElementFilters" >
+		<filter
+            class="org.miso.cloud.robotic.cloudsystemmodular.Package_Explorer_Selection"
+            description="Package_Explorer_Selection"
+            enabled="true"
+            id="org.miso.cloud.robotic.modular.cloudsystem.filter"
+            name="Selection_Package"
+            targetId="org.eclipse.jdt.ui.PackageExplorer">
+      </filter>
+   </extension>
+	<!-- POPUPMENUS FOR THE PROJECT-->
+	 <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="org.miso.cloud.robotic.cloudsystem.Menu"
+               label="CloudSystem"
+               mnemonic="L">
+            <command
+                  commandId="org.miso.cloud.robotic.modular.cloudsystem.command.gendiag"
+                  id="org.miso.cloud.robotic.modular.cloudsystem.gendiag"
+                  label="Generate Model"
+                  mnemonic="L"
+                  style="push">
+				<visibleWhen
+                     checkEnabled="true">
+                  <with
+                        variable="activeMenuSelection">
+                     <count
+                           value="1">
+                     </count>
+                     <iterate
+                           operator="and">
+                        <not>
+                           <test
+                                 property="org.eclipse.core.resources.projectNature"
+                                 value="org.miso.cloud.robotic.modular.generalmodularnature">
+                           </test>
+                        </not>
+                     </iterate>
+                  </with>
+               </visibleWhen>
+            </command>           
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="true"
+            class="org.miso.cloud.robotic.cloudsystemmodular.CreateMenu"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="New"
+               label="New CloudSystem"
+               mnemonic="L">
+            <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="activeMenuSelection">
+                  <count
+                        value="1">
+                  </count>
+                  <iterate
+                        operator="and">
+                     <test
+                           property="org.eclipse.core.resources.projectNature"
+                           value="org.miso.cloud.robotic.cloudsystemmodular.ModularNature">
+                     </test>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </menu>        
+      </menuContribution>
+	  <!-- OPEN WITH COMMANDId-->
+	  <menuContribution
+            allPopups="true"
+            class="org.miso.cloud.robotic.cloudsystemmodular.OpenWithMenu"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="OpenWith"
+               label="Open With">
+            <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="1">
+                  <and>
+                     <test
+                           property="org.eclipse.core.resources.projectNature"
+                           value="org.miso.cloud.robotic.cloudsystemmodular.ModularNature">
+                     </test>
+                  </and>
+               </with>
+            </visibleWhen>
+         </menu>
+      </menuContribution>
+   </extension>	
+	<!-- COMMANDS-->
+	 <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="org.miso.cloud.robotic.modular.cloudsystem.command.gendiag"
+            name="Generate Model">
+      </command>     
+   </extension>
+   <!-- HANDLERS-->
+	<extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.miso.cloud.robotic.cloudsystemmodular.actions.GenerateModel"
+            commandId="org.miso.cloud.robotic.modular.cloudsystem.command.gendiag">
+      </handler>     
+   </extension>
+   <!-- MODEL CROSS REFERENCES -->
+    <extension
+       point="org.model.references.definition.ext">
+    <client
+          Id="CloudSystemModularCrossReferences"
+          class="org.miso.cloud.robotic.cloudsystemmodular.editors.CloudSystemModularCrossReferences">
+    </client>
+   </extension>
+   <!-- MODEL PAGE  PREFERENCES -->
+    <extension
+       point="org.eclipse.ui.preferencePages">
+    <page
+          class="org.miso.cloud.robotic.cloudsystemmodular.preferences.CloudSystemPreferencePage"
+          id="org.miso.cloud.robotic.modular.preferences.CloudSystemPreferencePage"
+          name="CloudSystem Preferences">
+    </page>
+ </extension>
+ <!-- MODEL PAGE  PREFERENCES INITIALIZER-->
+ <extension
+       point="org.eclipse.core.runtime.preferences">
+    <initializer
+          class="org.miso.cloud.robotic.cloudsystemmodular.preferences.CloudSystemPreferenceInitializer">
+    </initializer>
+ </extension>	
+ <!-- INITIALIZER ON START UP-->
+ <extension
+       point="org.eclipse.ui.startup">
+    <startup
+          class="org.miso.cloud.robotic.cloudsystemmodular.Init">
+    </startup>
+ </extension> 
+</plugin> 	

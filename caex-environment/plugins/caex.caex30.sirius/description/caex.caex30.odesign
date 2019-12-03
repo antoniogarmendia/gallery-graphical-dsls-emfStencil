@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:style_1="http://www.eclipse.org/sirius/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0">
+  <description:Group version="12.0.0.2017041100">
+    <ownedViewpoints name="Vphrchy" modelFileExtension="hrchy">
+      <ownedRepresentations xsi:type="description_1:DiagramDescription" name="VpInstanceHierarchy" label="InstanceHierarchy" initialisation="true" domainClass="caex.InstanceHierarchy">
+        <metamodel href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1"/>
+        <defaultLayer name="Default Layer" label="Default Layer">
+          <nodeMappings name="IdRoleRequirements" semanticCandidatesExpression="aql:if(self.oclIsKindOf(caex::InternalElement)) then self.roleRequirements else self endif" domainClass="caex.RoleRequirements">
+            <style xsi:type="style:SquareDescription" labelExpression="aql:self.roleClass.name" labelPosition="node" resizeKind="NSEW" width="5" height="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            </style>
+          </nodeMappings>
+          <nodeMappings name="IdAttribute" semanticCandidatesExpression="aql:if(self.oclIsKindOf(caex::Attribute)) then self.attribute else if (self.oclIsKindOf(caex::AttributeLib)) then self.attributeType else if (self.oclIsKindOf(caex::InterfaceClass)) then self.attribute else if (self.oclIsKindOf(caex::SystemUnitClass)) then self.attribute else if (self.oclIsKindOf(caex::RoleClass)) then self.attribute else if (self.oclIsKindOf(caex::RoleRequirements)) then self.attribute else self endif endif endif endif endif endif" domainClass="caex.Attribute">
+            <style xsi:type="style:SquareDescription" labelExpression="aql:self.name + ' : ' + self.attributeDataType + ' = ' + self.value" labelPosition="node" resizeKind="NSEW" width="5" height="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            </style>
+          </nodeMappings>
+          <nodeMappings name="IdSupportedRoleClass" semanticCandidatesExpression="aql:if(self.oclIsKindOf(caex::SystemUnitClass)) then self.supportedRoleClass else self endif" domainClass="caex.SupportedRoleClass">
+            <style xsi:type="style:SquareDescription" labelExpression="aql:self.roleClass.name" labelPosition="node" resizeKind="NSEW" width="5" height="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            </style>
+          </nodeMappings>
+          <edgeMappings name="IdInternalLink" sourceMapping="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']" targetMapping="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']" targetFinderExpression="[self.partnerSideB/]" sourceFinderExpression="[self.partnerSideA/]" domainClass="caex.InternalLink" useDomainElement="true">
+            <style targetArrow="NoDecoration">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <centerLabelStyleDescription showIcon="false">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </edgeMappings>
+          <containerMappings name="IdInternalElement" semanticCandidatesExpression="aql:if(self.oclIsKindOf(caex::InstanceHierarchy)) then self.internalElement else if (self.oclIsKindOf(caex::SystemUnitClass)) then self.internalElement else if (self.oclIsKindOf(caex::SystemUnitClassLib)) then self.systemUnitClass else self endif endif endif" domainClass="caex.InternalElement" reusedBorderedNodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']" reusedNodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdRoleRequirements'] /0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdAttribute'] /0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdSupportedRoleClass']" reusedContainerMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']">
+            <borderedNodeMappings name="IdExternalInterface" semanticCandidatesExpression="aql:if(self.oclIsKindOf(caex::InterfaceClass)) then self.interfaceClass else if (self.oclIsKindOf(caex::InterfaceClassLib)) then self.interfaceClass else if (self.oclIsKindOf(caex::SystemUnitClass)) then self.externalInterface else if (self.oclIsKindOf(caex::RoleClass)) then self.externalInterface else if (self.oclIsKindOf(caex::RoleRequirements)) then self.externalInterface else self endif endif endif endif endif" domainClass="caex.ExternalInterface">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="aql:self.name" resizeKind="NSEW" width="2" height="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="2" labelExpression="aql:self.name" widthComputationExpression="10" heightComputationExpression="10" labelBorderStyle="/1">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            </style>
+          </containerMappings>
+          <toolSections name="DefaultPalette">
+            <ownedTools xsi:type="tool:ContainerCreationDescription" name="IdCreationInternalElement" label="Create InternalElement" containerMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:Switch">
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::InstanceHierarchy)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.InternalElement" referenceName="internalElement"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::SystemUnitClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.InternalElement" referenceName="internalElement"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::SystemUnitClassLib)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.InternalElement" referenceName="systemUnitClass"/>
+                  </cases>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationExternalInterface" label="Create ExternalInterface" nodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:Switch">
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::InterfaceClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.ExternalInterface" referenceName="interfaceClass"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::InterfaceClassLib)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.ExternalInterface" referenceName="interfaceClass"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::SystemUnitClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.ExternalInterface" referenceName="externalInterface"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::RoleClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.ExternalInterface" referenceName="externalInterface"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::RoleRequirements)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.ExternalInterface" referenceName="externalInterface"/>
+                  </cases>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:EdgeCreationDescription" name="IdCreationInternalLink" label="Create InternalLink" edgeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@edgeMappings[name='IdInternalLink']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer(&quot;SystemUnitClass&quot;)/]">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.InternalLink" referenceName="internalLink">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="partnerSideA" valueExpression="var:source">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="partnerSideB" valueExpression="var:target"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationRoleRequirements" label="Create RoleRequirements" nodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdRoleRequirements']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.RoleRequirements" referenceName="roleRequirements"/>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationAttribute" label="Create Attribute" nodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdAttribute']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:Switch">
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::Attribute)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attribute"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::AttributeLib)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attributeType"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::InterfaceClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attribute"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::SystemUnitClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attribute"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::RoleClass)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attribute"/>
+                  </cases>
+                  <cases conditionExpression="aql:container.oclIsKindOf(caex::RoleRequirements)">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.Attribute" referenceName="attribute"/>
+                  </cases>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationSupportedRoleClass" label="Create SupportedRoleClass" nodeMappings="/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdSupportedRoleClass']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="caex.SupportedRoleClass" referenceName="supportedRoleClass"/>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:DeleteElementDescription">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <containerView name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="DeleteEMFElement" id="InstanceHierarchy.odesign.DeleteEObjectInstanceAction">
+                  <parameters name="eObject" value="var:element"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool_1:ExternalJavaAction" name="ShowRealEMFElement" id="InstanceHierarchy.odesign.ShowRealObjectAction">
+              <parameters name="eObject" value="var:element"/>
+            </ownedTools>
+          </toolSections>
+        </defaultLayer>
+      </ownedRepresentations>
+    </ownedViewpoints>
+    <userColorsPalettes name="DefaultPalette"/>
+  </description:Group>
+  <style_1:LabelBorderStyleDescription id="labelBorderForContainer" name="Label Border For Container"/>
+</xmi:XMI>

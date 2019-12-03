@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>org.miso.cloud.system</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.epsilon.concordance.builder.ConcordanceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.miso.cloud.robotic.modular.cloudsystem.ModularIncrementalProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.miso.cloud.robotic.modular.cloudsystem.ModularNature</nature>
+		<nature>org.eclipse.epsilon.concordance.nature.ConcordanceNature</nature>
+	</natures>
+</projectDescription>

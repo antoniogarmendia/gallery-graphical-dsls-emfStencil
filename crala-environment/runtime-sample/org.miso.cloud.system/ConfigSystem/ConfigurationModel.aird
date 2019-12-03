@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cloudRobotics="http://miso.es/cloudRobotics" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_AUD74JnkEemjJednTnJRtg" selectedViews="_AUI0YJnkEemjJednTnJRtg" version="12.1.0.201708031200">
+    <semanticResources>../Spec1.archi</semanticResources>
+    <semanticResources>ConfigurationModel.config</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_AUI0YJnkEemjJednTnJRtg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ARHVkJnkEemjJednTnJRtg" name="ConfSystem" repPath="#_AQGo8JnkEemjJednTnJRtg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']"/>
+        <target xmi:type="cloudRobotics:ConfigurationSystem" href="ConfigurationModel.config#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_ARAA0JnkEemjJednTnJRtg" name="ConfSystem" uid="_AQGo8JnkEemjJednTnJRtg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ARAA0ZnkEemjJednTnJRtg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ARAA0pnkEemjJednTnJRtg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ARbeoZnkEemjJednTnJRtg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ARbeopnkEemjJednTnJRtg" type="Sirius" element="_ARAA0JnkEemjJednTnJRtg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ARz5IJnkEemjJednTnJRtg" type="2002" element="_ARAA1JnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_AR6m0JnkEemjJednTnJRtg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_AR9DEJnkEemjJednTnJRtg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_ASHbIJnkEemjJednTnJRtg" type="3007" element="_ARAA1pnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_ASICMJnkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ASICMZnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATD2UJnkEemjJednTnJRtg" type="3005" element="_ARAA15nkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATD2UZnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATD2UpnkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ASHbIZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ASHbIpnkEemjJednTnJRtg" x="23" y="31" width="47" height="32"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_AS5eQJnkEemjJednTnJRtg" type="3007" element="_ARAA2JnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_AS5eQ5nkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_AS5eRJnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATEdYJnkEemjJednTnJRtg" type="3005" element="_ARAA2ZnkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATEdYZnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATEdYpnkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AS5eQZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AS5eQpnkEemjJednTnJRtg" x="23" y="91" width="59" height="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ATCoMJnkEemjJednTnJRtg" type="3007" element="_ARAA2pnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_ATDPQJnkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ATDPQZnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATEdY5nkEemjJednTnJRtg" type="3005" element="_ARAA25nkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATEdZJnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATEdZZnkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ATCoMZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATCoMpnkEemjJednTnJRtg" x="8" y="151" width="54" height="36"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_AR9DEZnkEemjJednTnJRtg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_AR9DEpnkEemjJednTnJRtg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ARz5IZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ARz5IpnkEemjJednTnJRtg" x="12" y="28"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_AR9qIJnkEemjJednTnJRtg" type="2002" element="_ARAA3JnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_AR-RMJnkEemjJednTnJRtg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_AR-RMZnkEemjJednTnJRtg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_ATEdZpnkEemjJednTnJRtg" type="3007" element="_ARAA3pnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_ATFEcJnkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ATFEcZnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATFrhZnkEemjJednTnJRtg" type="3005" element="_ARAA35nkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATFrhpnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATFrh5nkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ATEdZ5nkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATEdaJnkEemjJednTnJRtg" x="26" y="91" width="49" height="34"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ATFEcpnkEemjJednTnJRtg" type="3007" element="_ARAA4JnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_ATFEdZnkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ATFEdpnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATGSkJnkEemjJednTnJRtg" type="3005" element="_ARAA4ZnkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATGSkZnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATGSkpnkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ATFEc5nkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATFEdJnkEemjJednTnJRtg" x="8" y="151" width="54" height="36"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ATFrgJnkEemjJednTnJRtg" type="3007" element="_ARAA4pnkEemjJednTnJRtg">
+              <children xmi:type="notation:Node" xmi:id="_ATFrg5nkEemjJednTnJRtg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ATFrhJnkEemjJednTnJRtg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ATG5oJnkEemjJednTnJRtg" type="3005" element="_ARAA45nkEemjJednTnJRtg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_ATG5oZnkEemjJednTnJRtg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATG5opnkEemjJednTnJRtg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ATFrgZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATFrgpnkEemjJednTnJRtg" x="20" y="31" width="61" height="32"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_AR-RMpnkEemjJednTnJRtg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_AR-RM5nkEemjJednTnJRtg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_AR9qIZnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AR9qIpnkEemjJednTnJRtg" x="144" y="20" height="207"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ARbeo5nkEemjJednTnJRtg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_ATIHwJnkEemjJednTnJRtg" type="4001" element="_ARAA5JnkEemjJednTnJRtg" source="_ATCoMJnkEemjJednTnJRtg" target="_AS5eQJnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_ATJV4JnkEemjJednTnJRtg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATJV4ZnkEemjJednTnJRtg" x="5" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATJV4pnkEemjJednTnJRtg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATJV45nkEemjJednTnJRtg" x="1" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATJ88JnkEemjJednTnJRtg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATJ88ZnkEemjJednTnJRtg" x="3" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATIHwZnkEemjJednTnJRtg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATIHwpnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATIHw5nkEemjJednTnJRtg" points="[-2, -13, 7, 52]$[-5, -34, 4, 31]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATU8EJnkEemjJednTnJRtg" id="(0.7222222222222222,0.375)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATU8EZnkEemjJednTnJRtg" id="(0.2542372881355932,0.2141184342589495)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATVjIJnkEemjJednTnJRtg" type="4001" element="_ARAA55nkEemjJednTnJRtg" source="_AS5eQJnkEemjJednTnJRtg" target="_ASHbIJnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_ATVjJJnkEemjJednTnJRtg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATVjJZnkEemjJednTnJRtg" x="2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATVjJpnkEemjJednTnJRtg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATVjJ5nkEemjJednTnJRtg" x="5" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATVjKJnkEemjJednTnJRtg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATVjKZnkEemjJednTnJRtg" x="5" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATVjIZnkEemjJednTnJRtg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATVjIpnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATVjI5nkEemjJednTnJRtg" points="[0, 0, 0, 43]$[0, -28, 0, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATVjKpnkEemjJednTnJRtg" id="(0.2542372881355932,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATVjK5nkEemjJednTnJRtg" id="(0.3191489361702128,0.5405405405405406)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATWKMJnkEemjJednTnJRtg" type="4001" element="_ARAA6pnkEemjJednTnJRtg" source="_ASHbIJnkEemjJednTnJRtg" target="_ATFEcpnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_ATWKNJnkEemjJednTnJRtg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWKNZnkEemjJednTnJRtg" x="-8" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWKNpnkEemjJednTnJRtg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWKN5nkEemjJednTnJRtg" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWKOJnkEemjJednTnJRtg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWKOZnkEemjJednTnJRtg" x="1" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATWKMZnkEemjJednTnJRtg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATWKMpnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATWKM5nkEemjJednTnJRtg" points="[25, 24, -116, -110]$[109, 104, -32, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATWKOpnkEemjJednTnJRtg" id="(0.3191489361702128,0.2702702702702703)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATWKO5nkEemjJednTnJRtg" id="(0.7222222222222222,0.8520084566596196)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATWKPJnkEemjJednTnJRtg" type="4001" element="_ARAA7ZnkEemjJednTnJRtg" source="_ATFEcpnkEemjJednTnJRtg" target="_ATEdZpnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_ATWxQJnkEemjJednTnJRtg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxQZnkEemjJednTnJRtg" x="9" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWxQpnkEemjJednTnJRtg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxQ5nkEemjJednTnJRtg" x="-6" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWxRJnkEemjJednTnJRtg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxRZnkEemjJednTnJRtg" x="-7" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATWKPZnkEemjJednTnJRtg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATWKPpnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATWKP5nkEemjJednTnJRtg" points="[-3, -25, 3, 47]$[-5, -51, 1, 21]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATWxRpnkEemjJednTnJRtg" id="(0.7222222222222222,0.7040169133192389)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATWxR5nkEemjJednTnJRtg" id="(0.30612244897959184,0.40816326530612246)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATWxSJnkEemjJednTnJRtg" type="4001" element="_ARAA8JnkEemjJednTnJRtg" source="_ATEdZpnkEemjJednTnJRtg" target="_ATFrgJnkEemjJednTnJRtg">
+          <children xmi:type="notation:Node" xmi:id="_ATWxTJnkEemjJednTnJRtg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxTZnkEemjJednTnJRtg" x="1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWxTpnkEemjJednTnJRtg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxT5nkEemjJednTnJRtg" x="2" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATWxUJnkEemjJednTnJRtg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATWxUZnkEemjJednTnJRtg" x="3" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATWxSZnkEemjJednTnJRtg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATWxSpnkEemjJednTnJRtg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATWxS5nkEemjJednTnJRtg" points="[0, 0, -6, 44]$[2, -20, -4, 24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATXYUJnkEemjJednTnJRtg" id="(0.30612244897959184,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATXYUZnkEemjJednTnJRtg" id="(0.4426229508196721,0.40816326530612246)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_ARAA1JnkEemjJednTnJRtg" name="Virtual Machine 1" width="10" height="10">
+      <target xmi:type="cloudRobotics:VirtualMachine" href="ConfigurationModel.config#//@machines.0"/>
+      <semanticElements xmi:type="cloudRobotics:VirtualMachine" href="ConfigurationModel.config#//@machines.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ARAA1ZnkEemjJednTnJRtg" showIcon="false" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@containerMappings[name='IdVirtualMachine']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@containerMappings[name='IdVirtualMachine']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA1pnkEemjJednTnJRtg" outgoingEdges="_ARAA6pnkEemjJednTnJRtg" incomingEdges="_ARAA55nkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:ComponentClass" href="ConfigurationModel.config#//@machines.0/@components.2"/>
+        <semanticElements xmi:type="cloudRobotics:ComponentClass" href="ConfigurationModel.config#//@machines.0/@components.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA15nkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/ComponentClass/ComponentClass1.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA2JnkEemjJednTnJRtg" outgoingEdges="_ARAA55nkEemjJednTnJRtg" incomingEdges="_ARAA5JnkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.0/@components.0"/>
+        <semanticElements xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.0/@components.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA2ZnkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/WebService/WebService6.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA2pnkEemjJednTnJRtg" outgoingEdges="_ARAA5JnkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.0/@components.1"/>
+        <semanticElements xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.0/@components.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA25nkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/WebService/WebService6.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_ARAA3JnkEemjJednTnJRtg" name="Virtual Machine 2" width="10" height="10">
+      <target xmi:type="cloudRobotics:VirtualMachine" href="ConfigurationModel.config#//@machines.1"/>
+      <semanticElements xmi:type="cloudRobotics:VirtualMachine" href="ConfigurationModel.config#//@machines.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ARAA3ZnkEemjJednTnJRtg" showIcon="false" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@containerMappings[name='IdVirtualMachine']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@containerMappings[name='IdVirtualMachine']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA3pnkEemjJednTnJRtg" outgoingEdges="_ARAA8JnkEemjJednTnJRtg" incomingEdges="_ARAA7ZnkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:ComponentClass" href="ConfigurationModel.config#//@machines.1/@components.1"/>
+        <semanticElements xmi:type="cloudRobotics:ComponentClass" href="ConfigurationModel.config#//@machines.1/@components.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA35nkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/ComponentClass/ComponentClass1.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA4JnkEemjJednTnJRtg" outgoingEdges="_ARAA7ZnkEemjJednTnJRtg" incomingEdges="_ARAA6pnkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.1/@components.0"/>
+        <semanticElements xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.1/@components.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA4ZnkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/WebService/WebService6.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ARAA4pnkEemjJednTnJRtg" incomingEdges="_ARAA8JnkEemjJednTnJRtg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.1/@components.2"/>
+        <semanticElements xmi:type="cloudRobotics:WebService" href="ConfigurationModel.config#//@machines.1/@components.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ARAA45nkEemjJednTnJRtg" showIcon="false" workspacePath="/org.miso.cloud.robotic/google-icons/WebService/WebService6.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ARAA5JnkEemjJednTnJRtg" sourceNode="_ARAA2pnkEemjJednTnJRtg" targetNode="_ARAA2JnkEemjJednTnJRtg">
+      <target xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.0"/>
+      <semanticElements xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ARAA5ZnkEemjJednTnJRtg" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ARAA5pnkEemjJednTnJRtg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ARAA55nkEemjJednTnJRtg" sourceNode="_ARAA2JnkEemjJednTnJRtg" targetNode="_ARAA1pnkEemjJednTnJRtg">
+      <target xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.1"/>
+      <semanticElements xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ARAA6JnkEemjJednTnJRtg" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ARAA6ZnkEemjJednTnJRtg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ARAA6pnkEemjJednTnJRtg" sourceNode="_ARAA1pnkEemjJednTnJRtg" targetNode="_ARAA4JnkEemjJednTnJRtg">
+      <target xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.2"/>
+      <semanticElements xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ARAA65nkEemjJednTnJRtg" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ARAA7JnkEemjJednTnJRtg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ARAA7ZnkEemjJednTnJRtg" sourceNode="_ARAA4JnkEemjJednTnJRtg" targetNode="_ARAA3pnkEemjJednTnJRtg">
+      <target xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.3"/>
+      <semanticElements xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ARAA7pnkEemjJednTnJRtg" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ARAA75nkEemjJednTnJRtg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ARAA8JnkEemjJednTnJRtg" sourceNode="_ARAA3pnkEemjJednTnJRtg" targetNode="_ARAA4pnkEemjJednTnJRtg">
+      <target xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.4"/>
+      <semanticElements xmi:type="cloudRobotics:ConnectionComponent" href="ConfigurationModel.config#//@connections.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ARAA8ZnkEemjJednTnJRtg" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ARAA8pnkEemjJednTnJRtg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ARAA85nkEemjJednTnJRtg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer"/>
+    <target xmi:type="cloudRobotics:ConfigurationSystem" href="ConfigurationModel.config#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

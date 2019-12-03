@@ -1,0 +1,135 @@
+<plugin>
+	<!--PROJECT MODULAR NATURE-->
+	   <extension
+         id="generalmodularnature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="caex.caex30.modular.nature.GeneralProjectNature">
+         </run>
+      </runtime>
+   </extension>
+   <!--PROJECT WIZARDS-->
+	<extension
+         point="org.eclipse.ui.newWizards">
+	 <!-- PROJECT CATEGORY -->
+	 <category
+            id="caex.caex30.modular.category.general"
+            name="GeneralModular Project">
+      </category>
+	<!--WIZARD PROJECT WIZARD -->
+	<wizard
+			category="caex.caex30.modular.category.general"
+			class="caex.caex30.modular.wizard.GeneralModularProjectWizard"
+			name="General Modular Project"
+			id="caex.caex30.modular.general.preoject.wizard"
+			icon="icons/Pro.png"
+			project="true"
+	>
+	</wizard>	
+    <!--WIZARD PACKAGE WIZARD -->
+		<wizard
+			category="caex.caex30.modular.category.general"
+			class="caex.caex30.modular.wizard.folder.CAEXFileCreateFolderWizard"
+			name="CAEXFile Folder"
+			id="caex.caex30.caexfile.general.caexfileNewPackage"
+			icon="/caex.caex30.edit/icons/full/obj16/CAEXFile.gif"
+			project="false"
+		>
+		</wizard>	
+	 </extension>
+	 <!--PROJECT NATURE ICON -->
+	<extension
+         point="org.eclipse.ui.ide.projectNatureImages">
+      <image
+            icon="icons/Pro.png"
+            id="caex.caex30.modular.generalProject"
+            natureId="caex.caex30.modular.generalmodularnature">
+      </image>   
+	</extension>
+	<!--PROJECT NEW MENU -->
+	<extension
+         point="org.eclipse.ui.menus">
+	<menuContribution
+            allPopups="true"
+            class="caex.caex30.modular.nature.CreateMenu"
+            locationURI="popup:org.eclipse.jdt.ui.PackageExplorer?after=group.new">
+         <menu
+               id="GeneralModularProjectNewMenu"
+               label="New General Modular Project"
+               mnemonic="L">
+             <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="activeMenuSelection">
+                  <count
+                        value="1">
+                  </count>
+                  <iterate
+                        operator="and">
+                     <test
+                           property="org.eclipse.core.resources.projectNature"
+                           value="caex.caex30.modular.generalmodularnature">
+                     </test>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </menu>
+      </menuContribution>
+	<!-- GENERATE GENERAL MODULAR MODEL MENU-->
+    <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.jdt.ui.PackageExplorer?after=group.new">
+         <menu
+               id="general.modular.project"
+               label="General Modular Project"
+               mnemonic="L">
+            <command
+                  commandId="caex.caex30.general.modular.contrib"
+                  id="caex.caex30.modular.general.id"
+                  label="Generate Complete Model"
+                  mnemonic="L"
+                  style="push">
+			<visibleWhen
+                     checkEnabled="true">
+                  <with
+                        variable="activeMenuSelection">
+                     <count
+                           value="1">
+                     </count>
+                     <iterate
+                           operator="and">
+                        <test
+                              property="org.eclipse.core.resources.projectNature"
+                              value="caex.caex30.modular.generalmodularnature">
+                        </test>
+                     </iterate>
+                  </with>
+               </visibleWhen>
+            </command>
+         </menu>
+      </menuContribution>
+	</extension>
+	<!--HANDLERS -->
+	<extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="caex.caex30.modular.nature.GenerateCompleteModel"
+            commandId="caex.caex30.general.modular.contrib">
+      </handler>
+   </extension>	
+ <!-- CONCORDANCE-->
+ <extension
+       point="org.eclipse.epsilon.concordance.core.ModelChangeListener">
+    <listener
+          changesDatabase="false"
+          class="caex.caex30.modular.concordance.ModularReconcilerChangeListener">
+    </listener>
+ </extension>
+ <extension
+       point="org.eclipse.epsilon.concordance.core.ConcordanceModelFactory">
+    <factory
+          factory="caex.caex30.modular.concordance.ModularModelFactory">
+    </factory>
+ </extension>
+</plugin>

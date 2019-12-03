@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" xmi:id="_N6UPIJExEemUEcgu0KW7wA" selectedViews="_OfSkcJExEemUEcgu0KW7wA _APY3QJnkEemjJednTnJRtg" version="12.1.0.201708031200">
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Spec1.aird#_Ohj1UJExEemUEcgu0KW7wA"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="ConfigSystem/ConfigurationModel.aird#_AUD74JnkEemjJednTnJRtg"/>
+  <semanticResources>Spec1.archi</semanticResources>
+  <semanticResources>ConfigSystem/ConfigurationModel.config</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_OfSkcJExEemUEcgu0KW7wA">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vparchi']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_APY3QJnkEemjJednTnJRtg">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.miso.cloud.robotic.sirius/description/org.miso.cloud.robotic.odesign#//@ownedViewpoints[name='Vpconfig']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

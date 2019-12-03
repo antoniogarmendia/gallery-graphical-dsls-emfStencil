@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rtpat:PatternInstances xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dslpat="http://mondo.org/dslPatterns" xmlns:rtpat="http://mondo.org/runtimePatterns">
+  <appliedPatterns ident="Graph-based Representation">
+    <pattern href="patterns/repository.dslpatterns#//@categories.2/@patterns.0"/>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.0"/>
+      <element href="mindstorms-sample.diagram#/1/Choreography"/>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/GoForward"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/GoForward_64px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/GoBackward"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/GoBackward_64px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/Begin"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Begin_64px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/Rotate"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Rotate_Right_48px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/Release"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Release_48px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/End"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/End_64px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/Choreography"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Procedure_48px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.9"/>
+        <element href="mindstorms-sample.diagram#/1/NamedElement/name"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+      <element href="mindstorms-sample.diagram#/1/EdgeInstruction"/>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.1"/>
+        <element href="mindstorms-sample.diagram#/1/EdgeInstruction/source"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.2"/>
+        <element href="mindstorms-sample.diagram#/1/EdgeInstruction/target"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+      <element href="mindstorms-sample.diagram#/1/Grab"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Grab_48px.png">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+      </featureInstances>
+    </classInstances>
+  </appliedPatterns>
+</rtpat:PatternInstances>

@@ -1,0 +1,58 @@
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">	
+	<editor
+		name = "Mindstorms Sirius Model Editor" 
+		extensions = "mindstorms"
+		icon = "icons/sirius_icon.png"
+		launcher="org.miso.mindstorms.sample.sirius.editor.GraphicalSiriusEditor"
+		id="org.miso.mindstorms.sample.sirius.projectmindstorms.editors.FigureEditor"
+		default="false">
+	</editor>
+   </extension>
+   <!--Avoid the creation of Sirius Project
+   <extension
+         point="org.modular.sirius.definition.ext">
+      <new_client
+            class="org.miso.mindstorms.sample.sirius.ext.CreateDesignSiriusProject">
+      </new_client>
+   </extension>	
+   -->
+   <!--Create Sirius Project -->	
+	<extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="org.miso.mindstorms.sample.sirius.createProject"
+            name="Graphical Generation Project">
+      </category>
+      <wizard
+            category="org.miso.mindstorms.sample.sirius.createProject"
+            class="org.miso.mindstorms.sample.sirius.ext.CreateSiriusViewPointSpecification"
+            icon="icons/sirius_icon.png"
+            id="org.miso.mindstorms.sample.sirius.NewViewPointSirius"
+            name="org.miso.mindstorms.sample Graphical Generation Project"
+            project="true">
+      </wizard>
+   </extension>	
+   <!-- Register the viewpoint --> 
+   <extension point="org.eclipse.sirius.componentization">
+    <component class="org.miso.mindstorms.sample.sirius.Activator"
+               id="org.miso.mindstorms.sample.sirius"
+	       name="project">
+    </component>
+  </extension>	 
+  <!-- External Actions-->
+  <extension
+         point="org.eclipse.sirius.externalJavaAction">
+	  <!-- To Show the real object which is referenced-->
+      <javaActions
+            actionClass="org.eclipse.emf.henshin.model.sirius.external.actions.ShowRealObject"
+            id="invalid.odesign.ShowRealObjectAction">
+      </javaActions>
+	  <!-- Delete just the reference (not a real object)-->
+	  <javaActions
+            actionClass="org.eclipse.emf.henshin.model.sirius.external.actions.DeleteEObjectInstanceAction"
+            id="invalid.odesign.DeleteEObjectInstanceAction">
+      </javaActions> 
+   </extension>	 		 
+</plugin>

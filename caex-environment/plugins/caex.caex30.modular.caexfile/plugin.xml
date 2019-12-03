@@ -1,0 +1,443 @@
+<plugin>
+   <extension-point id="CAEXFileModularBuilders" name="caex.caex30.builders" schema="schema/CAEXFileModularBuilders.exsd"/>
+   <extension-point id="CAEXFileModularListeners" name="caex.caex30.listeners" schema="schema/CAEXFileModularListeners.exsd"/>	
+   <extension
+         point="org.eclipse.ui.newWizards">
+	  <!-- PROJECT CATEGORY -->
+      <category
+            id="caex.caex30.projectCAEXFile"
+            name="CAEXFile">
+      </category>
+	  <!-- PACKAGE CATEGORY -->	
+	<category
+            id="caex.caex30.projectCAEXFile.Packages"
+            name="CAEXFile Folders"
+			parentCategory="caex.caex30.projectCAEXFile">
+      </category> 
+	  <!-- FILE CATEGORY -->
+	  <category
+            id="caex.caex30.projectCAEXFile.Files"
+            name="CAEXFile Files"
+			parentCategory="caex.caex30.projectCAEXFile">
+      </category>	  
+     <wizard
+            category="caex.caex30.projectCAEXFile"
+            class="caex.caex30.caexfilemodular.wizard.CAEXFileNewProjectWizard"
+            id="caex.caex30.caexfile.CAEXFileNewProject"
+            name="CAEXFile Project"
+            project="true"
+			icon="icons/CAEXFile.gif">
+      </wizard>
+	<!--WIZARD PACKAGE CATEGORY -->
+	 <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Packages"
+			icon="icons/InterfaceClassLib.gif"
+			class="caex.caex30.caexfilemodular.wizard.folder.InterfaceClassLibCreateFolderWizard"
+			name="InterfaceClassLib Folder"
+			id="caex.caex30.interfaceclasslib.interfaceclasslibNewPackage"
+			project="false"
+	 		>	
+	 </wizard>
+	 <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Packages"
+			icon="icons/InterfaceFamily.gif"
+			class="caex.caex30.caexfilemodular.wizard.folder.InterfaceFamilyCreateFolderWizard"
+			name="InterfaceFamily Folder"
+			id="caex.caex30.interfacefamily.interfacefamilyNewPackage"
+			project="false"
+	 		>	
+	 </wizard>
+	 <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Packages"
+			icon="icons/RoleClassLib.gif"
+			class="caex.caex30.caexfilemodular.wizard.folder.RoleClassLibCreateFolderWizard"
+			name="RoleClassLib Folder"
+			id="caex.caex30.roleclasslib.roleclasslibNewPackage"
+			project="false"
+	 		>	
+	 </wizard>
+	 <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Packages"
+			icon="icons/SystemUnitClassLib.gif"
+			class="caex.caex30.caexfilemodular.wizard.folder.SystemUnitClassLibCreateFolderWizard"
+			name="SystemUnitClassLib Folder"
+			id="caex.caex30.systemunitclasslib.systemunitclasslibNewPackage"
+			project="false"
+	 		>	
+	 </wizard>
+	<!--WIZARD FILE CATEGORY -->
+	
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/InstanceHierarchy.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.InstanceHierarchyCreateFileWizard"
+			name="InstanceHierarchy File"
+			id="caex.caex30.instancehierarchy.instancehierarchyNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/InterfaceClass.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.InterfaceClassCreateFileWizard"
+			name="InterfaceClass File"
+			id="caex.caex30.interfaceclass.interfaceclassNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/ExternalInterface.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.ExternalInterfaceCreateFileWizard"
+			name="ExternalInterface File"
+			id="caex.caex30.externalinterface.externalinterfaceNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/RoleClass.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.RoleClassCreateFileWizard"
+			name="RoleClass File"
+			id="caex.caex30.roleclass.roleclassNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/SystemUnitClass.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.SystemUnitClassCreateFileWizard"
+			name="SystemUnitClass File"
+			id="caex.caex30.systemunitclass.systemunitclassNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/InternalElement.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.InternalElementCreateFileWizard"
+			name="InternalElement File"
+			id="caex.caex30.internalelement.internalelementNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+	  <wizard
+			category="caex.caex30.projectCAEXFile/caex.caex30.projectCAEXFile.Files"
+			icon="icons/SystemUnitFamily.gif"
+			class="caex.caex30.caexfilemodular.wizard.file.SystemUnitFamilyCreateFileWizard"
+			name="SystemUnitFamily File"
+			id="caex.caex30.systemunitfamily.systemunitfamilyNewFile"
+			project="false"
+	 		>	
+	 </wizard>		
+   </extension>
+   <!--MULTI-PAGE EDITOR PAGE EXTENSION-->  
+	<extension
+         point="org.eclipse.ui.editors">
+	
+	<editor
+		name = "Hrchy  Model Editor"
+		extensions = "hrchy"
+		icon = "icons/InstanceHierarchy.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorHrchy"
+		default="true">
+	</editor>
+	<editor
+		name = "Interface  Model Editor"
+		extensions = "interface"
+		icon = "icons/InterfaceClass.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorInterface"
+		default="true">
+	</editor>
+	<editor
+		name = "External  Model Editor"
+		extensions = "external"
+		icon = "icons/ExternalInterface.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorExternal"
+		default="true">
+	</editor>
+	<editor
+		name = "Role  Model Editor"
+		extensions = "role"
+		icon = "icons/RoleClass.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorRole"
+		default="true">
+	</editor>
+	<editor
+		name = "System  Model Editor"
+		extensions = "system"
+		icon = "icons/SystemUnitClass.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorSystem"
+		default="true">
+	</editor>
+	<editor
+		name = "Internal  Model Editor"
+		extensions = "internal"
+		icon = "icons/InternalElement.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorInternal"
+		default="true">
+	</editor>
+	<editor
+		name = "Sysf  Model Editor"
+		extensions = "sysf"
+		icon = "icons/SystemUnitFamily.gif"
+		contributorClass="caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditorContributor"
+		class = "caex.caex30.caexfilemodular.editors.CAEXModularMultiPageEditor"
+		id="caex.caex30.projectcaexfile.editors.FigureEditorSysf"
+		default="true">
+	</editor>
+	</extension>
+	<!--XMI FILE EXTENSION PARSER-->
+	<extension
+       point="org.eclipse.emf.ecore.extension_parser">
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="external">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="internal">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="role">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="system">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="hrchy">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="interface">
+    </parser>
+	<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="sysf">
+    </parser>
+	<!--XMI FILE EXTENSION PARSER FOR PACKAGES-->
+		<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="1">
+		</parser>
+		<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="2">
+		</parser>
+		<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="3">
+		</parser>
+		<parser
+          class="org.mondo.generate.modular.project.general.create.project.main.api.PerformantXMIResourceFactoryImpl"
+          type="4">
+		</parser>
+	</extension>
+	<!--PROJECT MODULAR NATURE-->
+   <extension
+         id="ModularNature"
+         name="Modular Nature"
+         point="org.eclipse.core.resources.natures">
+         <runtime>
+        	 <run class="caex.caex30.caexfilemodular.wizard.CAEXFileNewProjectNature">
+         </run>
+      </runtime>
+		<builder
+               id="caex.caex30.modular.caexfile.ModularIncrementalProjectBuilder">
+         </builder>
+   </extension>
+   <extension
+         id="ModularIncrementalProjectBuilder"
+         name="Modular Incremental Builder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            callOnEmptyDelta="false"
+            hasNature="true"
+            isConfigurable="false">
+         <run
+               class="caex.caex30.caexfilemodular.wizard.ModularIncrementalProjectBuilder">
+         </run></builder>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.projectNatureImages">
+         <image
+            icon="icons/CAEXFile.gif"
+            id="caex.caex30caexfile.image.Folder"
+            natureId="caex.caex30.modular.caexfile.ModularNature">
+      </image>
+   </extension> 
+   <!-- PROJECT DECORATOR -->
+	<extension
+         point="org.eclipse.ui.decorators">
+      <decorator 
+       	adaptable="true"
+            id="resources.folder.decorator.caexfile"
+            label="Folder Resource Decorator"
+            lightweight="true"
+            location="REPLACE"
+            state="true"
+            objectClass="org.eclipse.core.resources.IResource"
+            class="caex.caex30.caexfilemodular.decorator.ModularProjectDecorator">
+      </decorator>
+   </extension> 
+    <!-- PROPERTIES VIEW-->
+   <extension
+		point = "org.eclipse.jdt.ui.javaElementFilters" >
+		<filter
+            class="caex.caex30.caexfilemodular.Package_Explorer_Selection"
+            description="Package_Explorer_Selection"
+            enabled="true"
+            id="caex.caex30.modular.caexfile.filter"
+            name="Selection_Package"
+            targetId="org.eclipse.jdt.ui.PackageExplorer">
+      </filter>
+   </extension>
+	<!-- POPUPMENUS FOR THE PROJECT-->
+	 <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="caex.caex30.caexfile.Menu"
+               label="CAEXFile"
+               mnemonic="L">
+            <command
+                  commandId="caex.caex30.modular.caexfile.command.gendiag"
+                  id="caex.caex30.modular.caexfile.gendiag"
+                  label="Generate Model"
+                  mnemonic="L"
+                  style="push">
+				<visibleWhen
+                     checkEnabled="true">
+                  <with
+                        variable="activeMenuSelection">
+                     <count
+                           value="1">
+                     </count>
+                     <iterate
+                           operator="and">
+                        <not>
+                           <test
+                                 property="org.eclipse.core.resources.projectNature"
+                                 value="caex.caex30.modular.generalmodularnature">
+                           </test>
+                        </not>
+                     </iterate>
+                  </with>
+               </visibleWhen>
+            </command>           
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="true"
+            class="caex.caex30.caexfilemodular.CreateMenu"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="New"
+               label="New CAEXFile"
+               mnemonic="L">
+            <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="activeMenuSelection">
+                  <count
+                        value="1">
+                  </count>
+                  <iterate
+                        operator="and">
+                     <test
+                           property="org.eclipse.core.resources.projectNature"
+                           value="caex.caex30.caexfilemodular.ModularNature">
+                     </test>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </menu>        
+      </menuContribution>
+	  <!-- OPEN WITH COMMANDId-->
+	  <menuContribution
+            allPopups="true"
+            class="caex.caex30.caexfilemodular.OpenWithMenu"
+            locationURI="popup:org.eclipse.ui.popup.any?after=group.new">
+         <menu
+               id="OpenWith"
+               label="Open With">
+            <visibleWhen
+                  checkEnabled="true">
+               <with
+                     variable="1">
+                  <and>
+                     <test
+                           property="org.eclipse.core.resources.projectNature"
+                           value="caex.caex30.caexfilemodular.ModularNature">
+                     </test>
+                  </and>
+               </with>
+            </visibleWhen>
+         </menu>
+      </menuContribution>
+   </extension>	
+	<!-- COMMANDS-->
+	 <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="caex.caex30.modular.caexfile.command.gendiag"
+            name="Generate Model">
+      </command>     
+   </extension>
+   <!-- HANDLERS-->
+	<extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="caex.caex30.caexfilemodular.actions.GenerateModel"
+            commandId="caex.caex30.modular.caexfile.command.gendiag">
+      </handler>     
+   </extension>
+   <!-- MODEL CROSS REFERENCES -->
+    <extension
+       point="org.model.references.definition.ext">
+    <client
+          Id="CAEXFileModularCrossReferences"
+          class="caex.caex30.caexfilemodular.editors.CAEXFileModularCrossReferences">
+    </client>
+   </extension>
+   <!-- MODEL PAGE  PREFERENCES -->
+    <extension
+       point="org.eclipse.ui.preferencePages">
+    <page
+          class="caex.caex30.caexfilemodular.preferences.CAEXFilePreferencePage"
+          id="caex.caex30.modular.preferences.CAEXFilePreferencePage"
+          name="CAEXFile Preferences">
+    </page>
+ </extension>
+ <!-- MODEL PAGE  PREFERENCES INITIALIZER-->
+ <extension
+       point="org.eclipse.core.runtime.preferences">
+    <initializer
+          class="caex.caex30.caexfilemodular.preferences.CAEXFilePreferenceInitializer">
+    </initializer>
+ </extension>	
+ <!-- INITIALIZER ON START UP-->
+ <extension
+       point="org.eclipse.ui.startup">
+    <startup
+          class="caex.caex30.caexfilemodular.Init">
+    </startup>
+ </extension> 
+</plugin> 	

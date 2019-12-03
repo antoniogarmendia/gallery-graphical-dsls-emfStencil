@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cloudRobotics:ArchitectureSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cloudRobotics="http://miso.es/cloudRobotics" name="Spec1">
+  <robots>
+    <sensors name="MotionSensor"/>
+    <sensors name="Camera"/>
+  </robots>
+  <roles name="PathAnalysis"/>
+  <roles name="Detection"/>
+  <roles name="Search"/>
+  <roles name="Detection"/>
+  <connections source="//@robots.0/@sensors.1" target="//@roles.0"/>
+  <connections source="//@roles.0" target="//@roles.1"/>
+  <connections source="//@roles.1" target="//@roles.2"/>
+  <connections source="//@roles.2" target="//@roles.0"/>
+  <connections source="//@robots.0/@sensors.0" target="//@roles.3"/>
+  <connections source="//@roles.3"/>
+  <connections/>
+</cloudRobotics:ArchitectureSpecification>

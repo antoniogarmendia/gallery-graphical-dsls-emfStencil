@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graphicR:GraphicRepresentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graphicR="http://mondo.org/graphic_representation/1.0.3">
+  <allGraphicRepresentation extension="mindstorms">
+    <listRepresentations xsi:type="graphicR:RepresentationDD">
+      <root>
+        <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography"/>
+      </root>
+      <layers xsi:type="graphicR:DefaultLayer" name="Default Layer">
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/GoForward"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/GoForward_16px.png" palette_name="Create GoForward"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/GoForward_64px.png">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" oclExpression="self.cm.toString() + ' cm'">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/GoBackward"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/GoBackward_16px.png" palette_name="Create GoBackward"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/GoBackward_64px.png">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" oclExpression="self.cm.toString() + ' cm'">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Begin"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/Begin_16px.png" palette_name="Create Begin"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Begin_64px.png"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Rotate"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/Rotate_Right_16px.png" palette_name="Create Rotate"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Rotate_Right_48px.png">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" oclExpression="self.degrees.toString() + ' &#xba;'">
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+            </LabelanEAttribute>
+          </node_shape>
+          <conditionalStyle value="0">
+            <eAttribute href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Rotate/degrees"/>
+            <conditionalStyle xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Rotate_48px.png"/>
+            <labelOcl oclExpression="self.degrees.toString() + ' &#xba;'">
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+            </labelOcl>
+          </conditionalStyle>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Release"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/Release_16px.png" palette_name="Create Release"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Release_48px.png"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/End"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/End_16px.png" palette_name="Create End"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/End_64px.png"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/Procedure_16px.png" palette_name="Create Sub-Choreography"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Procedure_48px.png">
+            <LabelanEAttribute xsi:type="graphicR:LabelEAttribute">
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <labelAttributes>
+                <eAttribute href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/NamedElement/name"/>
+              </labelAttributes>
+            </LabelanEAttribute>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Edge">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/EdgeInstruction"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/EdgeInstruction_16px.png" palette_name="Create EdgeInstruction"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/edgeInstructions"/>
+          <directions>
+            <sourceLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.0 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.2 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.3 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.4 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.5 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.6 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.8">
+              <anEReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/EdgeInstruction/source"/>
+            </sourceLink>
+            <targetLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.0 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.2 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.3 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.4 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.5 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.6 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.8" decoratorName="InputArrow">
+              <anEReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/EdgeInstruction/target"/>
+            </targetLink>
+          </directions>
+          <edge_style>
+            <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </edge_style>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Grab"/>
+          <diag_palette icon_filepath="/org.miso.mindstorms.sample/icons/Grab_16px.png" palette_name="Create Grab"/>
+          <containerReference href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1/Choreography/instructions"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.mindstorms.sample/icons/Grab_48px.png"/>
+        </elements>
+      </layers>
+    </listRepresentations>
+  </allGraphicRepresentation>
+</graphicR:GraphicRepresentation>

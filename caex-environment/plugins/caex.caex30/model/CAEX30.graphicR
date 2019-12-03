@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graphicR:GraphicRepresentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graphicR="http://mondo.org/graphic_representation/1.0.3">
+  <allGraphicRepresentation extension="hrchy">
+    <listRepresentations xsi:type="graphicR:RepresentationDD">
+      <root>
+        <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InstanceHierarchy"/>
+      </root>
+      <layers xsi:type="graphicR:DefaultLayer" name="Default Layer">
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalElement"/>
+          <diag_palette palette_name="Create InternalElement"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InstanceHierarchy/internalElement"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/internalElement"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClassLib/systemUnitClass"/>
+          <node_elements>
+            <affixedCompartmentElements xsi:type="graphicR:AffixedElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/externalInterface"/>
+            </affixedCompartmentElements>
+            <affixedCompartmentElements xsi:type="graphicR:CompartmentElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.3">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalElement/roleRequirements"/>
+            </affixedCompartmentElements>
+            <affixedCompartmentElements xsi:type="graphicR:CompartmentElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.4">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/attribute"/>
+            </affixedCompartmentElements>
+            <affixedCompartmentElements xsi:type="graphicR:CompartmentElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.5">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/supportedRoleClass"/>
+            </affixedCompartmentElements>
+            <affixedCompartmentElements xsi:type="graphicR:CompartmentElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.0">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/internalElement"/>
+            </affixedCompartmentElements>
+          </node_elements>
+          <node_shape xsi:type="graphicR:ShapeCompartmentGradient" borderWidth="2" labelStyle="LabelBorderForContainer">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" showIcon="true" labelPosition="node" oclExpression="self.name">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+              <labelFormat>bold</labelFormat>
+            </LabelanEAttribute>
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            <foreGroundColor xsi:type="graphicR:SiriusSystemColors"/>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/ExternalInterface"/>
+          <diag_palette palette_name="Create ExternalInterface"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InterfaceClass/interfaceClass"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InterfaceClassLib/interfaceClass"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/externalInterface"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/RoleClass/externalInterface"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/RoleRequirements/externalInterface"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:Rectangle" width="2" height="2">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" oclExpression="self.name">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Edge">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalLink"/>
+          <diag_palette palette_name="Create InternalLink"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/internalLink"/>
+          <directions>
+            <sourceLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalLink/partnerSideA"/>
+            </sourceLink>
+            <targetLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1">
+              <anEReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalLink/partnerSideB"/>
+            </targetLink>
+          </directions>
+          <edge_style>
+            <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </edge_style>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/RoleRequirements"/>
+          <diag_palette palette_name="Create RoleRequirements"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InternalElement/roleRequirements"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:Rectangle" width="5" height="2">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" showIcon="true" labelPosition="node" oclExpression="self.roleClass.name">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="white"/>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/Attribute"/>
+          <diag_palette palette_name="Create Attribute"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/Attribute/attribute"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/AttributeLib/attributeType"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/InterfaceClass/attribute"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/attribute"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/RoleClass/attribute"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/RoleRequirements/attribute"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:Rectangle" width="5" height="2">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" showIcon="true" labelPosition="node" oclExpression="self.name + ' : ' + self.attributeDataType + ' = ' + self.value">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="white"/>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SupportedRoleClass"/>
+          <diag_palette palette_name="Create SupportedRoleClass"/>
+          <containerReference href="platform:/resource/caex.caex30/model/CAEX30.diagram#/1/SystemUnitClass/supportedRoleClass"/>
+          <node_elements/>
+          <node_shape xsi:type="graphicR:Rectangle" width="5" height="2">
+            <LabelanEAttribute xsi:type="graphicR:LabelOCL" showIcon="true" labelPosition="node" oclExpression="self.roleClass.name">
+              <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+            </LabelanEAttribute>
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="white"/>
+          </node_shape>
+        </elements>
+      </layers>
+    </listRepresentations>
+  </allGraphicRepresentation>
+</graphicR:GraphicRepresentation>

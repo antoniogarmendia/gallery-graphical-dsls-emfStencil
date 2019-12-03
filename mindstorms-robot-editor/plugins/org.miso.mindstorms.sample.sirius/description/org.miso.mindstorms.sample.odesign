@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" version="12.0.0.2017041100">
+  <ownedViewpoints name="Vpmindstorms" modelFileExtension="mindstorms">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="VpChoreography" label="Choreography" initialisation="true" domainClass="mindstorms.Choreography">
+      <metamodel href="platform:/resource/org.miso.mindstorms.sample/mindstorms-sample.diagram#/1"/>
+      <defaultLayer name="Default Layer" label="Default Layer">
+        <nodeMappings name="IdGoForward" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.GoForward">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.cm.toString() + ' cm'" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/GoForward_64px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdGoBackward" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.GoBackward">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.cm.toString() + ' cm'" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/GoBackward_64px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdBegin" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.Begin">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Begin_64px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdRotate" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.Rotate">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.degrees.toString() + ' º'" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Rotate_Right_48px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.degrees>=0">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.degrees.toString() + ' º'" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Rotate_48px.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="IdRelease" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.Release">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Release_48px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdEnd" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.End">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/End_64px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdChoreography" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.Choreography">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Procedure_48px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdGrab" semanticCandidatesExpression="feature:instructions" domainClass="mindstorms.Grab">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" resizeKind="NSEW" workspacePath="/org.miso.mindstorms.sample/icons/Grab_48px.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="IdEdgeInstruction" sourceMapping="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoForward'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoBackward'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdBegin'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRotate'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRelease'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdEnd'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdChoreography'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGrab']" targetMapping="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoForward'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoBackward'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdBegin'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRotate'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRelease'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdEnd'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdChoreography'] //@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGrab']" targetFinderExpression="[self.target/]" sourceFinderExpression="[self.source/]" domainClass="mindstorms.EdgeInstruction" useDomainElement="true">
+          <style>
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="DefaultPalette">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationGoForward" label="Create GoForward" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoForward']" iconPath="/org.miso.mindstorms.sample/icons/GoForward_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.GoForward" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationGoBackward" label="Create GoBackward" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGoBackward']" iconPath="/org.miso.mindstorms.sample/icons/GoBackward_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.GoBackward" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationBegin" label="Create Begin" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdBegin']" iconPath="/org.miso.mindstorms.sample/icons/Begin_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.Begin" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationRotate" label="Create Rotate" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRotate']" iconPath="/org.miso.mindstorms.sample/icons/Rotate_Right_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.Rotate" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationRelease" label="Create Release" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdRelease']" iconPath="/org.miso.mindstorms.sample/icons/Release_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.Release" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationEnd" label="Create End" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdEnd']" iconPath="/org.miso.mindstorms.sample/icons/End_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.End" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationChoreography" label="Create Sub-Choreography" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdChoreography']" iconPath="/org.miso.mindstorms.sample/icons/Procedure_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.Choreography" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="IdCreationEdgeInstruction" label="Create EdgeInstruction" edgeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@edgeMappings[name='IdEdgeInstruction']" iconPath="/org.miso.mindstorms.sample/icons/EdgeInstruction_16px.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer(&quot;Choreography&quot;)/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.EdgeInstruction" referenceName="edgeInstructions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationGrab" label="Create Grab" nodeMappings="//@ownedViewpoints[name='Vpmindstorms']/@ownedRepresentations[name='VpChoreography']/@defaultLayer/@nodeMappings[name='IdGrab']" iconPath="/org.miso.mindstorms.sample/icons/Grab_16px.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="mindstorms.Grab" referenceName="instructions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="DeleteEMFElement" id="Choreography.odesign.DeleteEObjectInstanceAction">
+                <parameters name="eObject" value="var:element"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ExternalJavaAction" name="ShowRealEMFElement" id="Choreography.odesign.ShowRealObjectAction">
+            <parameters name="eObject" value="var:element"/>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <userColorsPalettes name="DefaultPalette"/>
+</description:Group>

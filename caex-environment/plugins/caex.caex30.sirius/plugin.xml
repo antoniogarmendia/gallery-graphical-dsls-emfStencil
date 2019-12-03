@@ -1,0 +1,67 @@
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">	
+	<editor
+		name = "Hrchy Sirius Model Editor" 
+		extensions = "hrchy"
+		icon = "icons/sirius_icon.png"
+		launcher="caex.caex30.sirius.editor.GraphicalSiriusEditor"
+		id="caex.caex30.sirius.projecthrchy.editors.FigureEditor"
+		default="false">
+	</editor>
+   </extension>
+   <!--Avoid the creation of Sirius Project
+   <extension
+         point="org.modular.sirius.definition.ext">
+      <new_client
+            class="caex.caex30.sirius.ext.CreateDesignSiriusProject">
+      </new_client>
+   </extension>	
+   -->
+   <!--Create Sirius Project -->	
+	<extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="caex.caex30.sirius.createProject"
+            name="Graphical Generation Project">
+      </category>
+      <wizard
+            category="caex.caex30.sirius.createProject"
+            class="caex.caex30.sirius.ext.CreateSiriusViewPointSpecification"
+            icon="icons/sirius_icon.png"
+            id="caex.caex30.sirius.NewViewPointSirius"
+            name="caex.caex30 Graphical Generation Project"
+            project="true">
+      </wizard>
+   </extension>	
+   <!-- Register the viewpoint --> 
+   <extension point="org.eclipse.sirius.componentization">
+    <component class="caex.caex30.sirius.Activator"
+               id="caex.caex30.sirius"
+	       name="project">
+    </component>
+  </extension>	 
+  <!-- External Actions-->
+  <extension
+         point="org.eclipse.sirius.externalJavaAction">
+	  <!-- To Show the real object which is referenced-->
+      <javaActions
+            actionClass="org.eclipse.emf.henshin.model.sirius.external.actions.ShowRealObject"
+            id="CAEXFile.odesign.ShowRealObjectAction">
+      </javaActions>
+	  <!-- Delete just the reference (not a real object)-->
+	  <javaActions
+            actionClass="org.eclipse.emf.henshin.model.sirius.external.actions.DeleteEObjectInstanceAction"
+            id="CAEXFile.odesign.DeleteEObjectInstanceAction">
+      </javaActions> 
+   </extension>
+  <extension
+        point="org.eclipse.eef.properties.ui.eefTabDescriptorFilter">
+     <descriptor
+           class="caex.caex30.sirius.EEFTabDescriptorFilter1"
+           description="description"
+           id="caex.caex30.sirius.descriptor1"
+           label="label">
+     </descriptor>
+  </extension>	 		 
+</plugin>

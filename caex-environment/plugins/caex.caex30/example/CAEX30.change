@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+    <value featureName="labelSize" dataValue="10"/>
+  </objectChanges>
+</change:ChangeDescription>

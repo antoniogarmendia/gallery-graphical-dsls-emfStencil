@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<caex:CAEXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:caex="http://www.dke.de/CAEX/300" changeMode="state" fileName="PPU_reverse" schemaVersion="3.00">
+  <instanceHierarchy changeMode="state" iD="2" name="PickAndPlaceUnit">
+    <internalElement name="Stack">
+      <externalInterface xsi:type="caex:ExternalInterface" name="Output"/>
+      <internalElement name="InternalStackProcess"/>
+      <supportedRoleClass roleClass="//@roleClassLib.0/@roleClass.0"/>
+      <internalLink partnerSideA="//@instanceHierarchy.0/@internalElement.0/@externalInterface.0" partnerSideB="//@instanceHierarchy.0/@internalElement.1/@externalInterface.1"/>
+      <roleRequirements roleClass="//@roleClassLib.0/@roleClass.1"/>
+      <roleRequirements roleClass="//@roleClassLib.0/@roleClass.2"/>
+    </internalElement>
+    <internalElement name="Crane">
+      <attribute name="iteration-value" value="50" unit=""/>
+      <externalInterface xsi:type="caex:ExternalInterface" name="Output"/>
+      <externalInterface xsi:type="caex:ExternalInterface" name="Input"/>
+      <internalLink partnerSideA="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" partnerSideB="//@instanceHierarchy.0/@internalElement.2/@externalInterface.0"/>
+    </internalElement>
+    <internalElement name="Ramp">
+      <externalInterface xsi:type="caex:ExternalInterface" name="Input"/>
+      <supportedRoleClass roleClass="//@roleClassLib.0/@roleClass.2"/>
+    </internalElement>
+    <internalElement>
+      <externalInterface xsi:type="caex:ExternalInterface"/>
+      <internalElement/>
+      <internalLink partnerSideA="//@instanceHierarchy.0/@internalElement.3/@externalInterface.0" partnerSideB="//@instanceHierarchy.0/@internalElement.4/@externalInterface.0"/>
+    </internalElement>
+    <internalElement>
+      <externalInterface xsi:type="caex:ExternalInterface"/>
+    </internalElement>
+  </instanceHierarchy>
+  <roleClassLib changeMode="state" iD="5" name="AMLRoleClassLibrary">
+    <roleClass changeMode="state" iD="7" name="Product" refBaseClassPath="product"/>
+    <roleClass changeMode="state" iD="8" name="Process" refBaseClassPath="process"/>
+    <roleClass changeMode="state" iD="9" name="Resource" refBaseClassPath="resource"/>
+  </roleClassLib>
+  <systemUnitClassLib changeMode="state" iD="8" name="PickAndPlaceUnitSystemUnitLibrary">
+    <systemUnitClass changeMode="state" iD="11" name="Stack" refBaseClassPath="sample-stack"/>
+    <systemUnitClass changeMode="state" iD="11" name="Crane" refBaseClassPath="sample-crane"/>
+    <systemUnitClass changeMode="state" iD="14" name="Ramp" refBaseClassPath="sample-ramp"/>
+  </systemUnitClassLib>
+</caex:CAEXFile>

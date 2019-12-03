@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloudrobotics -->
+      <package
+            uri="http://miso.es/cloudRobotics"
+            class="cloudRobotics.cloudRoboticsPackage"
+            genModel="cloudrobotics.genmodel"/>
+   </extension>
+
+</plugin>

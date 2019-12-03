@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.miso.mindstorms.sample/src" modelPluginID="org.miso.mindstorms.sample"
+    modelName="Mindstorms-sample" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" copyrightFields="false" importOrganizing="true">
+  <foreignModel>mindstorms-sample.ecore</foreignModel>
+  <genPackages prefix="Mindstorms" disposableProviderFactory="true" ecorePackage="mindstorms-sample.ecore#/">
+    <genClasses image="false" ecoreClass="mindstorms-sample.ecore#//Instruction"/>
+    <genClasses image="false" ecoreClass="mindstorms-sample.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//GoForward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//GoForward/cm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//GoForward/infinite"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//GoBackward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//GoBackward/cm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//GoBackward/infinite"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//Begin"/>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//Rotate">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//Rotate/degrees"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mindstorms-sample.ecore#//Rotate/random"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//Release"/>
+    <genClasses image="false" ecoreClass="mindstorms-sample.ecore#//Action"/>
+    <genClasses image="false" ecoreClass="mindstorms-sample.ecore#//Block"/>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//End"/>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//Choreography">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference mindstorms-sample.ecore#//Choreography/instructions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference mindstorms-sample.ecore#//Choreography/edgeInstructions"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//EdgeInstruction">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference mindstorms-sample.ecore#//EdgeInstruction/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference mindstorms-sample.ecore#//EdgeInstruction/target"/>
+    </genClasses>
+    <genClasses ecoreClass="mindstorms-sample.ecore#//Grab"/>
+  </genPackages>
+</genmodel:GenModel>

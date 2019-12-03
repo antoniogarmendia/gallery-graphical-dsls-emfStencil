@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mindstorms:Choreography xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mindstorms="http://www.obeo.fr/dsl/mindstorms/1.0.0">
+  <instructions xsi:type="mindstorms:Begin"/>
+  <instructions xsi:type="mindstorms:Rotate" degrees="50"/>
+  <instructions xsi:type="mindstorms:Choreography" name="C2 Choreography">
+    <instructions xsi:type="mindstorms:Begin"/>
+    <instructions xsi:type="mindstorms:End"/>
+    <instructions xsi:type="mindstorms:Rotate" degrees="-40"/>
+    <instructions xsi:type="mindstorms:GoBackward" cm="20"/>
+    <instructions xsi:type="mindstorms:GoForward" cm="30"/>
+    <instructions xsi:type="mindstorms:Release"/>
+    <instructions xsi:type="mindstorms:Grab"/>
+    <edgeInstructions source="//@instructions.2/@instructions.0" target="//@instructions.2/@instructions.2"/>
+    <edgeInstructions source="//@instructions.2/@instructions.3" target="//@instructions.2/@instructions.1"/>
+    <edgeInstructions source="//@instructions.2/@instructions.2" target="//@instructions.2/@instructions.4"/>
+    <edgeInstructions source="//@instructions.2/@instructions.4" target="//@instructions.2/@instructions.5"/>
+    <edgeInstructions source="//@instructions.2/@instructions.5" target="//@instructions.2/@instructions.6"/>
+    <edgeInstructions source="//@instructions.2/@instructions.6" target="//@instructions.2/@instructions.3"/>
+  </instructions>
+  <instructions xsi:type="mindstorms:End"/>
+  <instructions xsi:type="mindstorms:Grab"/>
+  <instructions xsi:type="mindstorms:GoForward" cm="50"/>
+  <instructions xsi:type="mindstorms:GoBackward" cm="50"/>
+  <instructions xsi:type="mindstorms:Release"/>
+  <edgeInstructions source="//@instructions.0" target="//@instructions.5"/>
+  <edgeInstructions source="//@instructions.5" target="//@instructions.1"/>
+  <edgeInstructions source="//@instructions.1" target="//@instructions.4"/>
+  <edgeInstructions target="//@instructions.6"/>
+  <edgeInstructions source="//@instructions.4" target="//@instructions.2"/>
+  <edgeInstructions source="//@instructions.2"/>
+  <edgeInstructions source="//@instructions.6" target="//@instructions.7"/>
+  <edgeInstructions source="//@instructions.7" target="//@instructions.3"/>
+  <edgeInstructions source="//@instructions.2" target="//@instructions.6"/>
+</mindstorms:Choreography>

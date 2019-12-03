@@ -1,0 +1,171 @@
+package org.miso.cloud.robotic.modular.concordance;
+
+import java.io.IOException;
+
+import org.eclipse.core.resources.IFile;
+import org.eclipse.core.resources.IMarker;
+import org.eclipse.core.resources.IResource;
+import org.eclipse.core.resources.ResourcesPlugin;
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.core.runtime.Path;
+import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EStructuralFeature;
+import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.epsilon.concordance.clients.xref.MarkerManager;
+import org.eclipse.epsilon.concordance.dt.ConcordancePlugin;
+import org.eclipse.epsilon.concordance.model.IConcordanceModel;
+import org.eclipse.epsilon.concordance.reporter.model.DefaultModelChangeListener;
+import org.eclipse.epsilon.concordance.reporter.model.ModelChangeListener;
+
+public class ModularReconcilerChangeListener extends DefaultModelChangeListener implements ModelChangeListener {
+
+	public static final String CONTAINMENT_FEATURE_MARKER_ATTRIBUTE = "ContainmentFeature";
+	
+	public ModularReconcilerChangeListener() {
+		super();
+	}
+
+	@Override
+	public void modelAdded(IConcordanceModel model) {
+
+		super.modelAdded(model);	
+	}
+	
+	@Override
+	public void modelChanged(IConcordanceModel model) {
+		
+		super.modelChanged(model);		
+	}
+	
+	@Override
+	public void modelRemoved(IConcordanceModel model) {
+		
+		index.visitAllCrossReferencesWithTarget(model, new DeleteCrossReferences());		
+	}
+	
+	@Override
+	public void modelMoved(IConcordanceModel original, IConcordanceModel moved) {
+		
+		String originalNameFile = original.getUri().trimFileExtension().lastSegment();
+		String movedNameFile = moved.getUri().trimFileExtension().lastSegment();
+				
+		if (!originalNameFile.equals(movedNameFile)) {
+			// rename file do nothing
+			return;
+		} else {
+			// move file
+			DeletePreviousProxy deleteProxy = new DeletePreviousProxy(moved);
+			index.visitAllCrossReferencesWithTarget(original,deleteProxy);
+			String feature = deleteProxy.getContainingFeature();
+			if (feature.equals("")) {
+				// try to find a marker
+				try {
+					IMarker[] markers = moved.getResource().findMarkers(MarkerManager.DANGLING_XREF_MARKER_ID, 
+												   true, IResource.DEPTH_ZERO);
+					for (IMarker marker : markers) {
+						Object objectFeature = marker.getAttribute(CONTAINMENT_FEATURE_MARKER_ATTRIBUTE);
+						if (objectFeature instanceof String) {
+							feature = (String) objectFeature;
+							boolean update = updateProxy(moved,feature);
+							if (update == true)
+								marker.delete();
+						} else {
+							return;
+						}
+					}					
+				} catch (CoreException e) {
+					
+					e.printStackTrace();
+				}				
+			} else {		
+				boolean update = updateProxy(moved,deleteProxy.getContainingFeature());
+				if (update == false)
+					danglingProxy(moved,feature);
+			}		
+		}		
+	}
+
+	private boolean updateProxy(IConcordanceModel moved, String feature) {
+		
+		URI parentURI = moved.getUri().trimSegments(1);
+		String folderName = parentURI.lastSegment();
+		int extension = searchExtension(parentURI);
+		if (extension == -1) {
+			return false;
+		} else {
+			parentURI = parentURI.appendSegment(folderName + "." + extension);
+		}
+
+		try {
+			Resource parentResource = moved.getEmfResource(false).getResourceSet().getResource(parentURI, true);
+			EObject rootEObject = parentResource.getContents().get(0);
+			EStructuralFeature structFeature = rootEObject.eClass().getEStructuralFeature(feature);
+			if (structFeature == null) {
+				return false;
+			}
+			if (structFeature.isMany() == true) {
+				@SuppressWarnings("unchecked")
+				EList<EObject> listOfObject = (EList<EObject>) rootEObject.eGet(structFeature);
+				listOfObject.add(moved.getEmfResource(false).getContents().get(0));
+				moved.getEmfResource(false).save(null);
+				parentResource.save(null);
+				// update concordance Database
+				IConcordanceModel parentModel = new ModularDomain(parentResource.getURI());
+				ConcordancePlugin.getDefault().getModelChangeReporter().reportChange(parentModel);
+			} else {
+				//TODO
+				/*
+				 * when the cross reference only has one element
+				 * */
+				System.out.println("Croos reference is not many fix me!");
+			}				
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}	
+		return true;	
+	}
+	
+	private int searchExtension(URI parentURI) {
+		
+		String folderName = parentURI.lastSegment();
+		URI testURI = null;
+		for (int i = 1; i <= 1; i++) {
+			testURI = parentURI.appendSegment(folderName + "." + i);
+			if (existFile(testURI) == true) {
+				return i;
+			}
+		}
+		
+		return -1;
+	}
+	
+	private void danglingProxy(IConcordanceModel moved, String feature) {		
+		
+		try {
+			
+			IMarker  marker = moved.getResource().createMarker(MarkerManager.DANGLING_XREF_MARKER_ID);
+			marker.setAttribute(IMarker.MESSAGE, "The file is outside the containment tree");
+			marker.setAttribute(IMarker.SEVERITY, IMarker.SEVERITY_ERROR);
+			marker.setAttribute(CONTAINMENT_FEATURE_MARKER_ATTRIBUTE, feature);
+			
+		} catch (CoreException e) {
+			
+			e.printStackTrace();
+		}		
+	}
+
+	private boolean existFile(URI modelURI){
+		
+		String path = modelURI.toPlatformString(true);			
+		IFile file = ResourcesPlugin.getWorkspace().getRoot().getFile(new Path(path));
+		if (file.exists() == true)
+			return true;
+		
+		return false;
+	}
+
+}
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MetaModelGraph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MetaModelGraph="http://miso.org/MetaModelGraph/1.0">
+  <subgraph root="//@subgraph.0/@nodes.0">
+    <nodes compositions="//@subgraph.0/@relations.0 //@subgraph.0/@relations.1" icon="/org.miso.cloud.robotic/icons/cloudSystem.png" extension="">
+      <eClass href="cloudrobotics.ecore#//CloudSystem"/>
+      <enumModularNotation>Project</enumModularNotation>
+      <name href="cloudrobotics.ecore#//CloudSystem/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.2 //@subgraph.0/@relations.3 //@subgraph.0/@relations.4" relations="//@subgraph.0/@relations.0" icon="/org.miso.cloud.robotic/icons/achitecture.png" extension="archi">
+      <eClass href="cloudrobotics.ecore#//ArchitectureSpecification"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="cloudrobotics.ecore#//ArchitectureSpecification/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.5" relations="//@subgraph.0/@relations.1" icon="/org.miso.cloud.robotic/icons/configuration.png" extension="">
+      <eClass href="cloudrobotics.ecore#//Configuration"/>
+      <enumModularNotation>Package</enumModularNotation>
+      <name href="cloudrobotics.ecore#//Configuration/name"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.6" relations="//@subgraph.0/@relations.2">
+      <eClass href="cloudrobotics.ecore#//Robot"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.3">
+      <eClass href="cloudrobotics.ecore#//Role"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.4">
+      <eClass href="cloudrobotics.ecore#//ConnectionElement"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.7 //@subgraph.0/@relations.8" relations="//@subgraph.0/@relations.5" icon="/org.miso.cloud.robotic/icons/configurationSystem.png" extension="config">
+      <eClass href="cloudrobotics.ecore#//ConfigurationSystem"/>
+      <enumModularNotation>Unit</enumModularNotation>
+      <name href="cloudrobotics.ecore#//ConfigurationSystem/name"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.6">
+      <eClass href="cloudrobotics.ecore#//SensorType"/>
+    </nodes>
+    <nodes compositions="//@subgraph.0/@relations.9" relations="//@subgraph.0/@relations.7">
+      <eClass href="cloudrobotics.ecore#//VirtualMachine"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.8">
+      <eClass href="cloudrobotics.ecore#//ConnectionComponent"/>
+    </nodes>
+    <nodes subClasses="//@subgraph.0/@relations.10 //@subgraph.0/@relations.11" relations="//@subgraph.0/@relations.9" directSubclasses="//@subgraph.0/@relations.10 //@subgraph.0/@relations.11">
+      <eClass href="cloudrobotics.ecore#//ConfigurationComponent"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.10">
+      <eClass href="cloudrobotics.ecore#//ComponentClass"/>
+    </nodes>
+    <nodes relations="//@subgraph.0/@relations.11">
+      <eClass href="cloudrobotics.ecore#//WebService"/>
+    </nodes>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.1" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="cloudrobotics.ecore#//CloudSystem/arq"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.2" parentNode="//@subgraph.0/@nodes.0">
+      <eReference href="cloudrobotics.ecore#//CloudSystem/configs"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.3" parentNode="//@subgraph.0/@nodes.1">
+      <eReference href="cloudrobotics.ecore#//ArchitectureSpecification/robots"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.4" parentNode="//@subgraph.0/@nodes.1">
+      <eReference href="cloudrobotics.ecore#//ArchitectureSpecification/roles"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.5" parentNode="//@subgraph.0/@nodes.1">
+      <eReference href="cloudrobotics.ecore#//ArchitectureSpecification/connections"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.6" parentNode="//@subgraph.0/@nodes.2">
+      <eReference href="cloudrobotics.ecore#//Configuration/configSystems"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.7" parentNode="//@subgraph.0/@nodes.3">
+      <eReference href="cloudrobotics.ecore#//Robot/sensors"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.8" parentNode="//@subgraph.0/@nodes.6">
+      <eReference href="cloudrobotics.ecore#//ConfigurationSystem/machines"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.9" parentNode="//@subgraph.0/@nodes.6">
+      <eReference href="cloudrobotics.ecore#//ConfigurationSystem/connections"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:Composition" target="//@subgraph.0/@nodes.10" parentNode="//@subgraph.0/@nodes.8">
+      <eReference href="cloudrobotics.ecore#//VirtualMachine/components"/>
+    </relations>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.11"/>
+    <relations xsi:type="MetaModelGraph:SubClass" target="//@subgraph.0/@nodes.12"/>
+  </subgraph>
+</MetaModelGraph:Graph>

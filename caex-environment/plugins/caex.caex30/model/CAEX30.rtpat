@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rtpat:PatternInstances xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dslpat="http://mondo.org/dslPatterns" xmlns:rtpat="http://mondo.org/runtimePatterns">
+  <appliedPatterns ident="Graph-based Representation">
+    <pattern href="patterns/repository.dslpatterns#//@categories.2/@patterns.0"/>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.0"/>
+      <element href="CAEX30.diagram#/1/InstanceHierarchy"/>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.diagram#/1/ExternalInterface"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="2">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="2">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+      <element href="CAEX30.diagram#/1/InternalLink"/>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.1"/>
+        <element href="CAEX30.diagram#/1/InternalLink/partnerSideA"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.2"/>
+        <element href="CAEX30.diagram#/1/InternalLink/partnerSideB"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.diagram#/1/RoleRequirements"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="5">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="2">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.diagram#/1/Attribute"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="5">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="2">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.diagram#/1/SupportedRoleClass"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="5">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="2">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+    </classInstances>
+  </appliedPatterns>
+  <appliedPatterns ident="Modularity">
+    <pattern href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0"/>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+      <element href="CAEX30.ecore#//CAEXFile"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/CAEXFile.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXFile/fileName"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXFile/instanceHierarchy"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXFile/interfaceClassLib"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXFile/roleClassLib"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXFile/systemUnitClassLib"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//InstanceHierarchy"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/InstanceHierarchy.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="hrchy">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.4"/>
+      <element href="CAEX30.ecore#//InterfaceClassLib"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/InterfaceClassLib.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//InterfaceClassLib/interfaceClass"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//InterfaceClassLib/interfaceClass"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//InterfaceClassLib/interfaceClass"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//InterfaceClass"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/InterfaceClass.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="interface">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//ExternalInterface"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/ExternalInterface.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="external">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.4"/>
+      <element href="CAEX30.ecore#//InterfaceFamily"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/InterfaceFamily.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//InterfaceClass/interfaceClass"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//InterfaceClass/externalInterface"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.4"/>
+      <element href="CAEX30.ecore#//RoleClassLib"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/RoleClassLib.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//RoleClassLib/roleClass"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//RoleClass"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/RoleClass.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="role">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.4"/>
+      <element href="CAEX30.ecore#//SystemUnitClassLib"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/SystemUnitClassLib.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//SystemUnitClassLib/systemUnitClass"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//SystemUnitClassLib/systemUnitClass"/>
+      </referenceInstances>
+      <referenceInstances>
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.0"/>
+        <element href="CAEX30.ecore#//SystemUnitClassLib/systemUnitClass"/>
+      </referenceInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//SystemUnitClass"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/SystemUnitClass.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="system">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//InternalElement"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/InternalElement.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="internal">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+    <classInstances>
+      <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.5"/>
+      <element href="CAEX30.ecore#//SystemUnitFamily"/>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/caex.caex30.edit/icons/full/obj16/SystemUnitFamily.gif">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.2"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance">
+        <role href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.0"/>
+        <element href="CAEX30.ecore#//CAEXObject/name"/>
+      </featureInstances>
+      <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="sysf">
+        <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.4/@subcategories.0/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.1"/>
+      </featureInstances>
+    </classInstances>
+  </appliedPatterns>
+</rtpat:PatternInstances>

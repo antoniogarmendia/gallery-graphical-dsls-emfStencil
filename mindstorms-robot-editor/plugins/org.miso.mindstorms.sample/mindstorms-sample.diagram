@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:dslpat="http://mondo.org/dslPatterns" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:rtpat="http://mondo.org/runtimePatterns">
+  <pi:Diagram visible="true" gridUnit="10" diagramTypeId="mondo" name="mindstorms-sample" snapToGrid="true" pictogramLinks="/0/@link /0/@children.0/@link /0/@children.0/@children.0/@link /0/@children.0/@children.1/@link /0/@children.0/@children.2/@link /0/@children.0/@children.4/@link /0/@children.1/@link /0/@children.1/@children.0/@link /0/@children.1/@children.1/@link /0/@children.1/@children.2/@link /0/@children.1/@children.4/@link /0/@children.1/@children.5/@children.0/@link /0/@children.1/@children.5/@link /0/@children.2/@link /0/@children.2/@children.0/@link /0/@children.2/@children.1/@link /0/@children.2/@children.2/@link /0/@children.2/@children.4/@link /0/@children.2/@children.5/@children.0/@link /0/@children.2/@children.5/@link /0/@children.2/@children.6/@children.0/@link /0/@children.2/@children.6/@link /0/@children.3/@link /0/@children.3/@children.0/@link /0/@children.3/@children.1/@link /0/@children.3/@children.2/@link /0/@children.3/@children.4/@link /0/@children.3/@children.5/@children.0/@link /0/@children.3/@children.5/@link /0/@children.3/@children.6/@children.0/@link /0/@children.3/@children.6/@link /0/@children.4/@link /0/@children.4/@children.0/@link /0/@children.4/@children.1/@link /0/@children.4/@children.2/@link /0/@children.4/@children.4/@link /0/@children.5/@link /0/@children.5/@children.0/@link /0/@children.5/@children.1/@link /0/@children.5/@children.2/@link /0/@children.5/@children.4/@link /0/@children.5/@children.5/@children.0/@link /0/@children.5/@children.5/@link /0/@children.5/@children.6/@children.0/@link /0/@children.5/@children.6/@link /0/@children.6/@link /0/@children.6/@children.0/@link /0/@children.6/@children.1/@link /0/@children.6/@children.2/@link /0/@children.6/@children.4/@link /0/@children.7/@link /0/@children.7/@children.0/@link /0/@children.7/@children.1/@link /0/@children.7/@children.2/@link /0/@children.7/@children.4/@link /0/@children.8/@link /0/@children.8/@children.0/@link /0/@children.8/@children.1/@link /0/@children.8/@children.2/@link /0/@children.8/@children.4/@link /0/@children.9/@link /0/@children.9/@children.0/@link /0/@children.9/@children.1/@link /0/@children.9/@children.2/@link /0/@children.9/@children.4/@link /0/@children.10/@link /0/@children.10/@children.0/@link /0/@children.10/@children.1/@link /0/@children.10/@children.2/@link /0/@children.10/@children.4/@link /0/@children.11/@link /0/@children.11/@children.0/@link /0/@children.11/@children.1/@link /0/@children.11/@children.2/@link /0/@children.11/@children.4/@link /0/@children.12/@link /0/@children.12/@children.0/@link /0/@children.12/@children.1/@link /0/@children.12/@children.2/@link /0/@children.12/@children.4/@link /0/@connections.10/@link /0/@connections.11/@link /0/@connections.12/@link /0/@connections.13/@link /0/@children.13/@children.0/@link" version="0.14.0">
+    <properties key="showPatternInfo" value="true"/>
+    <properties key="collapseInheritance" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+    <link businessObjects="/1"/>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1210" y="510"/>
+      <link businessObjects="/1/Instruction"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.0" incomingConnections="/0/@connections.7 /0/@connections.9 /0/@connections.10 /0/@connections.12 /0/@connections.13"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Instruction">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Instruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="&lt;&lt;abstract>>">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Instruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Instruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Instruction"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1210" y="670"/>
+      <link businessObjects="/1/NamedElement"/>
+      <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="/0/@connections.0"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="NamedElement">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/NamedElement"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="&lt;&lt;abstract>>">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/NamedElement"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/NamedElement"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/NamedElement"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="45"/>
+        <link businessObjects="/1/NamedElement/name"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="name : EString [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/NamedElement/name"/>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="30" y="30"/>
+      <link businessObjects="/1/GoForward"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.1"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="GoForward">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoForward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoForward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoForward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/GoForward"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="45"/>
+        <link businessObjects="/1/GoForward/cm"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="cm : EInt [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/GoForward/cm"/>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="65"/>
+        <link businessObjects="/1/GoForward/infinite"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="infinite : EBoolean [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/GoForward/infinite"/>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="290" y="30"/>
+      <link businessObjects="/1/GoBackward"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.2"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="GoBackward">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoBackward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoBackward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/GoBackward"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/GoBackward"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="45"/>
+        <link businessObjects="/1/GoBackward/cm"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="cm : EInt [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/GoBackward/cm"/>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="65"/>
+        <link businessObjects="/1/GoBackward/infinite"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="infinite : EBoolean [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/GoBackward/infinite"/>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="550" y="30"/>
+      <link businessObjects="/1/Begin"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.3"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Begin">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Begin"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Begin"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Begin"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Begin"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="810" y="30"/>
+      <link businessObjects="/1/Rotate"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.4"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Rotate">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Rotate"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Rotate"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Rotate"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Rotate"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="45"/>
+        <link businessObjects="/1/Rotate/degrees"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="degrees : EInt [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/Rotate/degrees"/>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="20" y="65"/>
+        <link businessObjects="/1/Rotate/random"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="195" height="20" x="5" font="/0/@fonts.1" value="random : EBoolean [0..1]{ordered, unique}"/>
+          <link businessObjects="/1/Rotate/random"/>
+        </children>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1070" y="30"/>
+      <link businessObjects="/1/Release"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.5"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Release">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Release"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Release"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Release"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Release"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="810" y="190"/>
+      <link businessObjects="/1/Action"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.6" incomingConnections="/0/@connections.1 /0/@connections.2 /0/@connections.3 /0/@connections.4 /0/@connections.5 /0/@connections.8 /0/@connections.14"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Action">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Action"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="&lt;&lt;abstract>>">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Action"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Action"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Action"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="810" y="350"/>
+      <link businessObjects="/1/Block"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.7" incomingConnections="/0/@connections.6"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Block">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Block"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="&lt;&lt;abstract>>">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Block"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Block"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Block"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1330" y="30"/>
+      <link businessObjects="/1/End"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.8"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="End">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/End"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/End"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/End"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/End"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1210" y="190"/>
+      <link businessObjects="/1/Choreography"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.9 /0/@connections.10 /0/@connections.11"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Choreography">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Choreography"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Choreography"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@Diagram&#xA;@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Choreography"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="30" x="5" y="45" font="/0/@fonts.1" value="instructions:Instruction[0..*]&#xA;edgeInstructions:EdgeInstruction[0..*]"/>
+        <link businessObjects="/1/Choreography"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1070" y="350"/>
+      <link businessObjects="/1/EdgeInstruction"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.12 /0/@connections.13" incomingConnections="/0/@connections.11"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="EdgeInstruction">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/EdgeInstruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/EdgeInstruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@EdgeElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/EdgeInstruction"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="30" x="5" y="45" font="/0/@fonts.1" value="source:Instruction[0..1]&#xA;target:Instruction[0..1]"/>
+        <link businessObjects="/1/EdgeInstruction"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="mode" value="expand"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.2" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="200" height="100" x="1590" y="30"/>
+      <link businessObjects="/1/Grab"/>
+      <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.14"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="25" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Grab">
+          <properties key="type" value="text"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Grab"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.4" lineWidth="1" filled="false" transparency="0.0" width="200" height="20" y="5" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="">
+          <properties key="type" value="tag"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Grab"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="138" height="40" x="138" y="5" font="/0/@fonts.2" verticalAlignment="ALIGNMENT_TOP" value="@IconElement">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/Grab"/>
+      </children>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points y="45"/>
+          <points x="200" y="45"/>
+        </graphicsAlgorithm>
+      </children>
+      <children>
+        <properties key="type" value="collapseInfoRef"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" x="5" y="100" font="/0/@fonts.1" value=""/>
+        <link businessObjects="/1/Grab"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="delete" value="notDelete"/>
+      <properties key="remove" value="notRemove"/>
+      <properties key="type" value="patternNames"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="300" height="75"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="300" height="75" font="/0/@fonts.5" value="@Graph-based Representation">
+          <properties key="type" value="infoPatterns"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1"/>
+      </children>
+    </children>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.0/@anchors.0" end="/0/@children.1/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.2/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.3/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.4/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.5/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.6/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.7/@anchors.0" end="/0/@children.8/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.8/@anchors.0" end="/0/@children.0/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.9/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.10/@anchors.0" end="/0/@children.0/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.10/@anchors.0" end="/0/@children.0/@anchors.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <link businessObjects="/1/Choreography/instructions"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <properties key="type" value="EREF_DECORATOR_DIR"/>
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.7">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="instructions"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="0..*"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value="{ordered,&#xA;unique}"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.3">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" locationRelative="true">
+        <properties key="type" value="EREF_DECORATOR_CONTAINMENT"/>
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.3" lineWidth="1" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+          <points x="-30"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.10/@anchors.0" end="/0/@children.11/@anchors.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <link businessObjects="/1/Choreography/edgeInstructions"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <properties key="type" value="EREF_DECORATOR_DIR"/>
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.7">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="edgeInstructions"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="0..*"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value="{ordered,&#xA;unique}"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.3">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" locationRelative="true">
+        <properties key="type" value="EREF_DECORATOR_CONTAINMENT"/>
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.3" lineWidth="1" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+          <points x="-30"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.11/@anchors.0" end="/0/@children.0/@anchors.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <link businessObjects="/1/EdgeInstruction/source"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <properties key="type" value="EREF_DECORATOR_DIR"/>
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.7">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="source"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="0..1"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value="{ordered,&#xA;unique}"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value="@EdgeElement/source"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.3">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.11/@anchors.0" end="/0/@children.0/@anchors.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <link businessObjects="/1/EdgeInstruction/target"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <properties key="type" value="EREF_DECORATOR_DIR"/>
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.7">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="target"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value="0..1"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value="{ordered,&#xA;unique}"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.85">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value="@EdgeElement/target"/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.3">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="5" y="-25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" x="-75" y="25" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+      <connectionDecorators visible="true" active="true" locationRelative="true" location="0.15">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="/0/@colors.3" lineWidth="1" filled="false" transparency="0.0" font="/0/@fonts.4" value=""/>
+      </connectionDecorators>
+    </connections>
+    <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.12/@anchors.0" end="/0/@children.7/@anchors.0">
+      <properties key="type" value="inheritance"/>
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.3" lineWidth="2" filled="false" transparency="0.0"/>
+      <connectionDecorators visible="true" locationRelative="true" location="1.0">
+        <graphicsAlgorithm xsi:type="al:Polygon" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="2" filled="true" transparency="0.0">
+          <points x="-15" y="10"/>
+          <points x="1"/>
+          <points x="-15" y="-10"/>
+        </graphicsAlgorithm>
+      </connectionDecorators>
+    </connections>
+    <colors red="227" green="238" blue="249"/>
+    <colors red="255" green="255" blue="255"/>
+    <colors red="148" green="177" blue="194"/>
+    <colors/>
+    <colors red="64" green="64" blue="64"/>
+    <fonts name="Verdana" size="12" bold="true"/>
+    <fonts name="Verdana" size="10"/>
+    <fonts name="Verdana" size="9" bold="true"/>
+    <fonts name="Arial" size="8"/>
+    <fonts name="Verdana" size="9"/>
+    <fonts name="Verdana" size="11" bold="true"/>
+  </pi:Diagram>
+  <ecore:EPackage name="mindstorms" nsURI="http://www.obeo.fr/dsl/mindstorms/1.0.0" nsPrefix="mindstorms">
+    <eClassifiers xsi:type="ecore:EClass" name="Instruction" abstract="true" eSuperTypes="/1/NamedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="GoForward" eSuperTypes="/1/Action">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="cm">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="infinite">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="GoBackward" eSuperTypes="/1/Action">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="cm">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="infinite">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Begin" eSuperTypes="/1/Action"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Rotate" eSuperTypes="/1/Action">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="degrees">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="random">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Release" eSuperTypes="/1/Action"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Action" abstract="true" eSuperTypes="/1/Block"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Block" abstract="true" eSuperTypes="/1/Instruction"/>
+    <eClassifiers xsi:type="ecore:EClass" name="End" eSuperTypes="/1/Action"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Choreography" eSuperTypes="/1/Instruction">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="instructions" upperBound="-1" eType="/1/Instruction" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="edgeInstructions" upperBound="-1" eType="/1/EdgeInstruction" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="EdgeInstruction">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="/1/Instruction"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="/1/Instruction"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Grab" eSuperTypes="/1/Action"/>
+  </ecore:EPackage>
+  <rtpat:PatternInstances>
+    <appliedPatterns ident="Graph-based Representation">
+      <pattern href="patterns/repository.dslpatterns#//@categories.2/@patterns.0"/>
+      <classInstances element="/1/Choreography">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.0"/>
+      </classInstances>
+      <classInstances element="/1/GoForward">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/GoForward_64px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/GoBackward">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/GoBackward_64px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/Begin">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Begin_64px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/Rotate">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Rotate_Right_48px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/Release">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Release_48px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/End">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/End_64px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/Choreography">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Procedure_48px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+        <featureInstances xsi:type="rtpat:TypeFeatureRoleInstance" element="/1/NamedElement/name">
+          <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.9"/>
+        </featureInstances>
+      </classInstances>
+      <classInstances element="/1/EdgeInstruction">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.3"/>
+        <referenceInstances element="/1/EdgeInstruction/source">
+          <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.1"/>
+        </referenceInstances>
+        <referenceInstances element="/1/EdgeInstruction/target">
+          <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@refInterfaces.2"/>
+        </referenceInstances>
+      </classInstances>
+      <classInstances element="/1/Grab">
+        <role href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@classInterfaces.6"/>
+        <featureInstances xsi:type="rtpat:InstanceFeatureRoleInstance" value="/org.miso.mindstorms.sample/icons/Grab_48px.png">
+          <role xsi:type="dslpat:FeatureInstance" href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@rootVariant/@andChildren.0/@metaModel/@attrInterfaces.3"/>
+        </featureInstances>
+      </classInstances>
+      <serviceInstances activated="true">
+        <service href="patterns/repository.dslpatterns#//@categories.2/@patterns.0/@services.0"/>
+      </serviceInstances>
+    </appliedPatterns>
+  </rtpat:PatternInstances>
+</xmi:XMI>

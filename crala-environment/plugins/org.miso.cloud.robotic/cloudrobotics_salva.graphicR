@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graphicR:GraphicRepresentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:graphicR="http://mondo.org/graphic_representation/1.0.3">
+  <allGraphicRepresentation extension="archi">
+    <listRepresentations xsi:type="graphicR:RepresentationDD">
+      <root>
+        <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ArchitectureSpecification"/>
+      </root>
+      <layers xsi:type="graphicR:DefaultLayer" name="Default Layer">
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Robot"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/robot.png" palette_name="Create Robot"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ArchitectureSpecification/robots"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Robot/name"/>
+            </LabelanEAttribute>
+            <affixedCompartmentElements xsi:type="graphicR:AffixedElement" nodes="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Robot/sensors"/>
+            </affixedCompartmentElements>
+          </node_elements>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.cloud.robotic/icons/robot.svg"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/SensorType"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/sensorType.png" palette_name="Create SensorType"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Robot/sensors"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/SensorType/name"/>
+            </LabelanEAttribute>
+          </node_elements>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.cloud.robotic/icons/sensorType.svg"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Role"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/role.png" palette_name="Create Role"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ArchitectureSpecification/roles"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/Role/name"/>
+            </LabelanEAttribute>
+          </node_elements>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.cloud.robotic/icons/role.svg"/>
+        </elements>
+        <elements xsi:type="graphicR:Edge">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionElement"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/connection.png" palette_name="Create ConnectionElement"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ArchitectureSpecification/connections"/>
+          <directions>
+            <sourceLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.2" decoratorName="OutputArrow">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionElement/source"/>
+            </sourceLink>
+            <targetLink anDiagramElement="//@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.0/@listRepresentations.0/@layers.0/@elements.2" decoratorName="InputArrow">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionElement/target"/>
+            </targetLink>
+          </directions>
+          <edge_style>
+            <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </edge_style>
+        </elements>
+      </layers>
+    </listRepresentations>
+    <listRepresentations xsi:type="graphicR:RepresentationTable">
+      <rootTable href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//ArchitectureSpecification"/>
+      <lines xsi:type="graphicR:LineGroup">
+        <featureReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//ArchitectureSpecification/roles"/>
+        <listEClasses href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//Role"/>
+      </lines>
+      <columns href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//Role/name"/>
+    </listRepresentations>
+    <listRepresentations xsi:type="graphicR:RepresentationTable">
+      <rootTable href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//ArchitectureSpecification"/>
+      <lines xsi:type="graphicR:LineGroup">
+        <featureReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//ArchitectureSpecification/roles"/>
+        <listEClasses href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//Role"/>
+      </lines>
+      <columns href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.ecore#//Role/name"/>
+    </listRepresentations>
+  </allGraphicRepresentation>
+  <allGraphicRepresentation extension="config">
+    <listRepresentations xsi:type="graphicR:RepresentationDD">
+      <root>
+        <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConfigurationSystem"/>
+      </root>
+      <layers xsi:type="graphicR:DefaultLayer" name="Default Layer">
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/VirtualMachine"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/virtualMachine.png" palette_name="Create VirtualMachine"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConfigurationSystem/machines"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/VirtualMachine/name"/>
+            </LabelanEAttribute>
+            <affixedCompartmentElements xsi:type="graphicR:CompartmentElement" nodes="//@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.2">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/VirtualMachine/components"/>
+            </affixedCompartmentElements>
+          </node_elements>
+          <node_shape xsi:type="graphicR:ShapeCompartmentParallelogram">
+            <color xsi:type="graphicR:SiriusSystemColors" name="white"/>
+            <borderColor xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </node_shape>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ComponentClass"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/componentClass.png" palette_name="Create ComponentClass"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/VirtualMachine/components"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConfigurationComponent/name"/>
+            </LabelanEAttribute>
+          </node_elements>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.cloud.robotic/icons/componentClass.svg"/>
+        </elements>
+        <elements xsi:type="graphicR:Node">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/WebService"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/webServices.png" palette_name="Create WebService"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/VirtualMachine/components"/>
+          <node_elements>
+            <LabelanEAttribute>
+              <color xsi:type="graphicR:SiriusSystemColors"/>
+              <anEAttribute href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConfigurationComponent/name"/>
+            </LabelanEAttribute>
+          </node_elements>
+          <node_shape xsi:type="graphicR:IconElement" filepath="/org.miso.cloud.robotic/icons/webServices.svg"/>
+        </elements>
+        <elements xsi:type="graphicR:Edge">
+          <anEClass href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionComponent"/>
+          <diag_palette icon_filepath="/org.miso.cloud.robotic/icons/connection.png" palette_name="Create ConnectionComponent"/>
+          <containerReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConfigurationSystem/connections"/>
+          <directions>
+            <sourceLink anDiagramElement="//@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.2" decoratorName="OutputArrow">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionComponent/source"/>
+            </sourceLink>
+            <targetLink anDiagramElement="//@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.1 //@allGraphicRepresentation.1/@listRepresentations.0/@layers.0/@elements.2" decoratorName="InputArrow">
+              <anEReference href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2/ConnectionComponent/target"/>
+            </targetLink>
+          </directions>
+          <edge_style>
+            <color xsi:type="graphicR:SiriusSystemColors" name="black"/>
+          </edge_style>
+        </elements>
+      </layers>
+    </listRepresentations>
+  </allGraphicRepresentation>
+</graphicR:GraphicRepresentation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.miso.cloud.robotic/src" modelPluginID="org.miso.cloud.robotic"
+    modelName="cloudrobotics" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" containmentProxies="true" complianceLevel="7.0"
+    copyrightFields="false">
+  <foreignModel>cloudrobotics.ecore</foreignModel>
+  <genPackages prefix="cloudRobotics" disposableProviderFactory="true" ecorePackage="cloudrobotics.ecore#/">
+    <genClasses ecoreClass="cloudrobotics.ecore#//CloudSystem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//CloudSystem/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//CloudSystem/arq"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//CloudSystem/configs"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//ArchitectureSpecification">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ArchitectureSpecification/robots"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ArchitectureSpecification/roles"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//ArchitectureSpecification/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ArchitectureSpecification/connections"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//Robot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//Robot/sensors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//Robot/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//SensorType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//SensorType/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="cloudrobotics.ecore#//Element"/>
+    <genClasses ecoreClass="cloudrobotics.ecore#//Role">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//Role/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//ConnectionElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConnectionElement/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConnectionElement/target"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//Configuration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//Configuration/configSystems"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//Configuration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//ConfigurationSystem">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConfigurationSystem/machines"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConfigurationSystem/connections"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//ConfigurationSystem/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//VirtualMachine">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//VirtualMachine/components"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//VirtualMachine/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="cloudrobotics.ecore#//ConfigurationComponent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cloudrobotics.ecore#//ConfigurationComponent/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cloudrobotics.ecore#//ComponentClass"/>
+    <genClasses ecoreClass="cloudrobotics.ecore#//WebService"/>
+    <genClasses ecoreClass="cloudrobotics.ecore#//ConnectionComponent">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConnectionComponent/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cloudrobotics.ecore#//ConnectionComponent/target"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

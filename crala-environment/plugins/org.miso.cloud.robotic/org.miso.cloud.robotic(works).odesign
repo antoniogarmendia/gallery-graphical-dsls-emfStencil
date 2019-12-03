@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" version="11.1.1.201610211630">
+  <ownedViewpoints name="Vparchi" modelFileExtension="archi">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="VpArchitectureSpecification" label="ArchitectureSpecification" initialisation="true" domainClass="cloudRobotics.ArchitectureSpecification">
+      <metamodel href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2"/>
+      <defaultLayer name="Default Layer" label="Default Layer">
+        <nodeMappings name="IdRole" semanticCandidatesExpression="feature:roles" domainClass="cloudRobotics.Role">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.cloud.robotic/icons/role.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="IdConnectionElement" sourceMapping="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@containerMappings[name='IdRobot']/@borderedNodeMappings[name='IdSensorType'] //@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@nodeMappings[name='IdRole']" targetMapping="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@containerMappings[name='IdRobot']/@borderedNodeMappings[name='IdSensorType'] //@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@nodeMappings[name='IdRole']" targetFinderExpression="[self.target/]" sourceFinderExpression="[self.source/]" domainClass="cloudRobotics.ConnectionElement" useDomainElement="true">
+          <style sourceArrow="OutputArrow">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="IdRobot" semanticCandidatesExpression="feature:robots" domainClass="cloudRobotics.Robot" reusedBorderedNodeMappings="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@containerMappings[name='IdRobot']/@borderedNodeMappings[name='IdSensorType']">
+          <borderedNodeMappings name="IdSensorType" semanticCandidatesExpression="feature:sensors" domainClass="cloudRobotics.SensorType">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.cloud.robotic/icons/sensorType.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.cloud.robotic/icons/robot.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="DefaultPalette">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="IdCreationRobot" label="Create Robot" containerMappings="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@containerMappings[name='IdRobot']" iconPath="/org.miso.cloud.robotic/icons/robot.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.Robot" referenceName="robots"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationSensorType" label="Create SensorType" nodeMappings="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@containerMappings[name='IdRobot']/@borderedNodeMappings[name='IdSensorType']" iconPath="/org.miso.cloud.robotic/icons/sensorType.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.SensorType" referenceName="sensors"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationRole" label="Create Role" nodeMappings="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@nodeMappings[name='IdRole']" iconPath="/org.miso.cloud.robotic/icons/role.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.Role" referenceName="roles"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="IdCreationConnectionElement" label="Create ConnectionElement" edgeMappings="//@ownedViewpoints[name='Vparchi']/@ownedRepresentations[name='VpArchitectureSpecification']/@defaultLayer/@edgeMappings[name='IdConnectionElement']" iconPath="/org.miso.cloud.robotic/icons/connection.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer(&quot;ArchitectureSpecification&quot;)/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.ConnectionElement" referenceName="connections">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="Table ArchitectureSpecification[roles]" initialisation="true" domainClass="cloudRobotics.ArchitectureSpecification">
+      <ownedLineMappings name="RoleLine" domainClass="cloudRobotics.Role" semanticCandidatesExpression="[self.roles/]"/>
+      <ownedColumnMappings name="nameColumn" headerLabelExpression="name" featureName="name"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="Vpconfig" modelFileExtension="config">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="VpConfigurationSystem" label="ConfigurationSystem" initialisation="true" domainClass="cloudRobotics.ConfigurationSystem">
+      <metamodel href="platform:/resource/org.miso.cloud.robotic/cloudrobotics.diagram#/2"/>
+      <defaultLayer name="Default Layer" label="Default Layer">
+        <nodeMappings name="IdComponentClass" semanticCandidatesExpression="feature:components" domainClass="cloudRobotics.ComponentClass">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.cloud.robotic/icons/componentClass.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="IdWebService" semanticCandidatesExpression="feature:components" domainClass="cloudRobotics.WebService">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" resizeKind="NSEW" workspacePath="/org.miso.cloud.robotic/icons/webServices.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="IdConnectionComponent" sourceMapping="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass'] //@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']" targetMapping="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass'] //@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']" targetFinderExpression="[self.target/]" sourceFinderExpression="[self.source/]" domainClass="cloudRobotics.ConnectionComponent" useDomainElement="true">
+          <style sourceArrow="OutputArrow">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="IdVirtualMachine" semanticCandidatesExpression="feature:machines" domainClass="cloudRobotics.VirtualMachine" reusedNodeMappings="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass'] //@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']">
+          <style xsi:type="style:ShapeContainerStyleDescription" showIcon="false" widthComputationExpression="10" heightComputationExpression="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="DefaultPalette">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="IdCreationVirtualMachine" label="Create VirtualMachine" containerMappings="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@containerMappings[name='IdVirtualMachine']" iconPath="/org.miso.cloud.robotic/icons/virtualMachine.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.VirtualMachine" referenceName="machines"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationComponentClass" label="Create ComponentClass" nodeMappings="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdComponentClass']" iconPath="/org.miso.cloud.robotic/icons/componentClass.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.ComponentClass" referenceName="components"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="IdCreationWebService" label="Create WebService" nodeMappings="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@nodeMappings[name='IdWebService']" iconPath="/org.miso.cloud.robotic/icons/webServices.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.WebService" referenceName="components"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="IdCreationConnectionComponent" label="Create ConnectionComponent" edgeMappings="//@ownedViewpoints[name='Vpconfig']/@ownedRepresentations[name='VpConfigurationSystem']/@defaultLayer/@edgeMappings[name='IdConnectionComponent']" iconPath="/org.miso.cloud.robotic/icons/connection.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer(&quot;ConfigurationSystem&quot;)/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cloudRobotics.ConnectionComponent" referenceName="connections">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <userColorsPalettes name="DefaultPalette"/>
+</description:Group>
