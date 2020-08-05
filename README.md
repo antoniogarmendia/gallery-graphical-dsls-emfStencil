@@ -1,6 +1,8 @@
 [//]: # (gallery-graphical-dsls-emfStencil)
 # Gallery of Graphical DSLs built with EMF-Stencil
 
+Note: EMF-Stencil must be installed in order to test these generated graphical editors.
+
 Folders Description:
 * __caex-environment__: Environment for the CAEX language. This DSL represents the hierarchical structure of production systems.
 ![](/images/result-enviroment-caex.png) 
