@@ -2417,7 +2417,7 @@ public class CAEXPackageImpl extends EPackageImpl implements CAEXPackage {
 		  (this,
 		   source,
 		   new String[] {
-			   "qualified", "false"
+			   "qualified", "true"
 		   });
 		addAnnotation
 		  (attributeDataTypeEDataType,

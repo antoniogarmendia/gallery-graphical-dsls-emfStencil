@@ -54,14 +54,5 @@
             actionClass="org.eclipse.emf.henshin.model.sirius.external.actions.DeleteEObjectInstanceAction"
             id="CAEXFile.odesign.DeleteEObjectInstanceAction">
       </javaActions> 
-   </extension>
-  <extension
-        point="org.eclipse.eef.properties.ui.eefTabDescriptorFilter">
-     <descriptor
-           class="caex.caex30.sirius.EEFTabDescriptorFilter1"
-           description="description"
-           id="caex.caex30.sirius.descriptor1"
-           label="label">
-     </descriptor>
-  </extension>	 		 
+   </extension>	 		 
 </plugin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_rAhv0Ji1Ee2hu8YGHP71PA" selectedViews="_r2jY4Ji1Ee2hu8YGHP71PA" version="15.0.0.202201261500">
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="file:/C:/D/Github/2023/gallery-graphical-dsls-emfStencil/caex-environment/runtime-sample/PPU/PickAndPlaceUnit.aird#_sI2p0Ji1Ee2hu8YGHP71PA"/>
+  <semanticResources>file:/C:/D/Github/2023/gallery-graphical-dsls-emfStencil/caex-environment/runtime-sample/PPU/PickAndPlaceUnit.hrchy</semanticResources>
+  <semanticResources>file:/C:/D/Github/2023/gallery-graphical-dsls-emfStencil/caex-environment/runtime-sample/PPU/AMLRoleClassLibrary/Product.role</semanticResources>
+  <semanticResources>file:/C:/D/Github/2023/gallery-graphical-dsls-emfStencil/caex-environment/runtime-sample/PPU/AMLRoleClassLibrary/Process.role</semanticResources>
+  <semanticResources>file:/C:/D/Github/2023/gallery-graphical-dsls-emfStencil/caex-environment/runtime-sample/PPU/AMLRoleClassLibrary/Resource.role</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_r2jY4Ji1Ee2hu8YGHP71PA">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

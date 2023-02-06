@@ -26,12 +26,4 @@
       <roleClass href="AMLRoleClassLibrary/Resource.role#/"/>
     </supportedRoleClass>
   </internalElement>
-  <internalElement>
-    <externalInterface xsi:type="caex:ExternalInterface"/>
-    <internalElement/>
-    <internalLink partnerSideA="//@internalElement.3/@externalInterface.0" partnerSideB="//@internalElement.4/@externalInterface.0"/>
-  </internalElement>
-  <internalElement>
-    <externalInterface xsi:type="caex:ExternalInterface"/>
-  </internalElement>
 </caex:InstanceHierarchy>

@@ -2,7 +2,7 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="caex" nsURI="http://www.dke.de/CAEX/300" nsPrefix="caex">
   <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
-    <details key="qualified" value="false"/>
+    <details key="qualified" value="true"/>
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EDataType" name="AttributeDataType" instanceClassName="java.lang.String">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
