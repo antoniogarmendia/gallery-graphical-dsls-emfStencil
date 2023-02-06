@@ -7,7 +7,7 @@
     <semanticResources>AMLRoleClassLibrary/Resource.role</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_sI5GEJi1Ee2hu8YGHP71PA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_r2-2sJi1Ee2hu8YGHP71PA" name="PickAndPlace" repPath="#_r2zQgJi1Ee2hu8YGHP71PA" changeId="5db31637-99e8-448f-a5a9-e3c66f2285d3">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_r2-2sJi1Ee2hu8YGHP71PA" name="PickAndPlace" repPath="#_r2zQgJi1Ee2hu8YGHP71PA" changeId="ebae2716-7382-4b45-9408-7d8e369b175f">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']"/>
         <target xmi:type="caex:InstanceHierarchy_._type" href="PickAndPlaceUnit.hrchy#/"/>
       </ownedRepresentationDescriptors>
@@ -26,7 +26,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_sHuoc5i1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHuBYZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8" bold="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHuBYpi1Ee2hu8YGHP71PA" x="28" y="32"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHuBYpi1Ee2hu8YGHP71PA" x="60" y="37" width="227"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_sHvPgJi1Ee2hu8YGHP71PA" type="3007" element="_sFGLMJi1Ee2hu8YGHP71PA">
               <children xmi:type="notation:Node" xmi:id="_sHvPg5i1Ee2hu8YGHP71PA" type="5003">
@@ -37,7 +37,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxEspi1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHvPgZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHvPgpi1Ee2hu8YGHP71PA" x="210" y="32" width="50" height="20"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHvPgpi1Ee2hu8YGHP71PA" x="6" y="7" width="85" height="20"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_sHv2kJi1Ee2hu8YGHP71PA" type="3007" element="_sFGyQJi1Ee2hu8YGHP71PA">
               <children xmi:type="notation:Node" xmi:id="_sHv2k5i1Ee2hu8YGHP71PA" type="5003">
@@ -48,7 +48,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxEtZi1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHv2kZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHv2kpi1Ee2hu8YGHP71PA" x="204" y="61" width="50" height="20"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHv2kpi1Ee2hu8YGHP71PA" x="102" y="7" width="91" height="20"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_sHwdoJi1Ee2hu8YGHP71PA" type="3007" element="_sFHZUJi1Ee2hu8YGHP71PA">
               <children xmi:type="notation:Node" xmi:id="_sHwdo5i1Ee2hu8YGHP71PA" type="5003">
@@ -59,7 +59,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxEuJi1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHwdoZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHwdopi1Ee2hu8YGHP71PA" x="204" y="97" width="50" height="20"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHwdopi1Ee2hu8YGHP71PA" x="204" y="7" width="115" height="20"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_sHUYwZi1Ee2hu8YGHP71PA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_sHUYwpi1Ee2hu8YGHP71PA"/>
@@ -73,10 +73,10 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxEu5i1Ee2hu8YGHP71PA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_sHdisZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHdispi1Ee2hu8YGHP71PA" x="6" y="-12" width="20" height="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHdispi1Ee2hu8YGHP71PA" y="166" width="20" height="20"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_sHKnwZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHKnwpi1Ee2hu8YGHP71PA" x="402" y="180"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHKnwpi1Ee2hu8YGHP71PA" x="492" y="24" width="351"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_sHafYJi1Ee2hu8YGHP71PA" type="2002" element="_sFBSsJi1Ee2hu8YGHP71PA">
           <children xmi:type="notation:Node" xmi:id="_sHbGcJi1Ee2hu8YGHP71PA" type="5006"/>
@@ -90,7 +90,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHyS15i1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHyS0Zi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHyS0pi1Ee2hu8YGHP71PA" x="28" y="32" width="50" height="20"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHyS0pi1Ee2hu8YGHP71PA" x="7" y="19" width="247" height="20"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_sHbGcpi1Ee2hu8YGHP71PA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_sHbGc5i1Ee2hu8YGHP71PA"/>
@@ -108,17 +108,17 @@
           </children>
           <children xmi:type="notation:Node" xmi:id="_sHxrxZi1Ee2hu8YGHP71PA" type="3012" element="_sFIAYpi1Ee2hu8YGHP71PA">
             <children xmi:type="notation:Node" xmi:id="_sHxryJi1Ee2hu8YGHP71PA" type="5010">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_sHxryZi1Ee2hu8YGHP71PA" x="21"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sHxryZi1Ee2hu8YGHP71PA" x="-5" y="-20"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_sHy545i1Ee2hu8YGHP71PA" type="3003" element="_sFIAY5i1Ee2hu8YGHP71PA">
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHy55Ji1Ee2hu8YGHP71PA" fontName="Segoe UI"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHy55Zi1Ee2hu8YGHP71PA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_sHxrxpi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxrx5i1Ee2hu8YGHP71PA" x="-12" y="12" width="20" height="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxrx5i1Ee2hu8YGHP71PA" x="264" y="-12" width="20" height="20"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_sHafYZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHafYpi1Ee2hu8YGHP71PA" x="180" y="162"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHafYpi1Ee2hu8YGHP71PA" x="216" y="282" width="316"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_sHbGdJi1Ee2hu8YGHP71PA" type="2002" element="_sFB5wJi1Ee2hu8YGHP71PA">
           <children xmi:type="notation:Node" xmi:id="_sHbGd5i1Ee2hu8YGHP71PA" type="5006"/>
@@ -132,7 +132,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHzg95i1Ee2hu8YGHP71PA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sHzg8Zi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHzg8pi1Ee2hu8YGHP71PA" x="28" y="32" width="50" height="20"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHzg8pi1Ee2hu8YGHP71PA" x="36" y="19" width="93" height="20"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_sHbGeZi1Ee2hu8YGHP71PA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_sHbGepi1Ee2hu8YGHP71PA"/>
@@ -146,41 +146,41 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHzg-pi1Ee2hu8YGHP71PA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_sHy555i1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHy56Ji1Ee2hu8YGHP71PA" x="6" y="90" width="20" height="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHy56Ji1Ee2hu8YGHP71PA" x="6" y="101" width="20" height="20"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_sHbGdZi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHbGdpi1Ee2hu8YGHP71PA" x="180"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHbGdpi1Ee2hu8YGHP71PA" x="102" y="24" width="171" height="111"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_r3JOwpi1Ee2hu8YGHP71PA"/>
         <edges xmi:type="notation:Edge" xmi:id="_sIGb4Ji1Ee2hu8YGHP71PA" type="4001" element="_sG2esJi1Ee2hu8YGHP71PA" source="_sHdisJi1Ee2hu8YGHP71PA" target="_sHxrxZi1Ee2hu8YGHP71PA">
           <children xmi:type="notation:Node" xmi:id="_sIHC8Ji1Ee2hu8YGHP71PA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIHC8Zi1Ee2hu8YGHP71PA" x="7" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIHC8Zi1Ee2hu8YGHP71PA" x="-6" y="5"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sII4IJi1Ee2hu8YGHP71PA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sII4IZi1Ee2hu8YGHP71PA" x="-6" y="-7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sII4IZi1Ee2hu8YGHP71PA" x="1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sIJfMJi1Ee2hu8YGHP71PA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIJfMZi1Ee2hu8YGHP71PA" x="-7" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIJfMZi1Ee2hu8YGHP71PA" x="2" y="-1"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_sIGb4Zi1Ee2hu8YGHP71PA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_sIGb4pi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sIGb45i1Ee2hu8YGHP71PA" points="[-10, 0, 230, -6]$[-230, 5, 10, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sIGb45i1Ee2hu8YGHP71PA" points="[-2, 10, 10, -70]$[-11, 70, 1, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sISCEJi1Ee2hu8YGHP71PA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sISCEZi1Ee2hu8YGHP71PA" id="(0.5,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_sISCEpi1Ee2hu8YGHP71PA" type="4001" element="_sG3s0pi1Ee2hu8YGHP71PA" source="_sHxrwJi1Ee2hu8YGHP71PA" target="_sHy55pi1Ee2hu8YGHP71PA">
           <children xmi:type="notation:Node" xmi:id="_sISpIJi1Ee2hu8YGHP71PA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpIZi1Ee2hu8YGHP71PA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpIZi1Ee2hu8YGHP71PA" x="27" y="-5"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sISpIpi1Ee2hu8YGHP71PA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpI5i1Ee2hu8YGHP71PA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpI5i1Ee2hu8YGHP71PA" x="-7" y="6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_sISpJJi1Ee2hu8YGHP71PA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpJZi1Ee2hu8YGHP71PA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sISpJZi1Ee2hu8YGHP71PA" x="-11" y="4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_sISCE5i1Ee2hu8YGHP71PA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_sISCFJi1Ee2hu8YGHP71PA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sISCFZi1Ee2hu8YGHP71PA" points="[0, 0, 0, -104]$[0, 104, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sISCFZi1Ee2hu8YGHP71PA" points="[-8, -10, 106, 135]$[-107, -135, 7, 10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sITQMJi1Ee2hu8YGHP71PA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sITQMZi1Ee2hu8YGHP71PA" id="(0.5,0.5)"/>
         </edges>
@@ -195,6 +195,9 @@
       <ownedBorderedNodes xmi:type="diagram:DNode" uid="_sFDu8Ji1Ee2hu8YGHP71PA" name="Output" outgoingEdges="_sG2esJi1Ee2hu8YGHP71PA" width="2" height="2" resizeKind="NSEW">
         <target xmi:type="caex:ExternalInterface_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.0/@externalInterface.0"/>
         <semanticElements xmi:type="caex:ExternalInterface_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.0/@externalInterface.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" uid="_sFEWAJi1Ee2hu8YGHP71PA" showIcon="false" width="2" height="2" color="255,255,255">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']/@style"/>
         </ownedStyle>
@@ -211,6 +214,9 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_sFE9EJi1Ee2hu8YGHP71PA" name="InternalStackProcess" width="10" height="10">
         <target xmi:type="caex:InternalElementType" href="PickAndPlaceUnit.hrchy#//@internalElement.0/@internalElement.0"/>
         <semanticElements xmi:type="caex:InternalElementType" href="PickAndPlaceUnit.hrchy#//@internalElement.0/@internalElement.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_sFE9EZi1Ee2hu8YGHP71PA" borderSize="2" borderSizeComputationExpression="2" foregroundColor="255,255,255">
           <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@style"/>
@@ -265,11 +271,17 @@
       <ownedBorderedNodes xmi:type="diagram:DNode" uid="_sFIAYpi1Ee2hu8YGHP71PA" name="Input" incomingEdges="_sG2esJi1Ee2hu8YGHP71PA" width="2" height="2" resizeKind="NSEW">
         <target xmi:type="caex:ExternalInterface_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.1/@externalInterface.1"/>
         <semanticElements xmi:type="caex:ExternalInterface_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.1/@externalInterface.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" uid="_sFIAY5i1Ee2hu8YGHP71PA" showIcon="false" width="2" height="2" color="255,255,255">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']"/>
       </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_sFBSsZi1Ee2hu8YGHP71PA" borderSize="2" borderSizeComputationExpression="2" foregroundColor="255,255,255">
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@style"/>
@@ -278,6 +290,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_sFIAZZi1Ee2hu8YGHP71PA" name="iteration-value :  = 50" width="5" height="2" resizeKind="NSEW">
         <target xmi:type="caex:AttributeType" href="PickAndPlaceUnit.hrchy#//@internalElement.1/@attribute.0"/>
         <semanticElements xmi:type="caex:AttributeType" href="PickAndPlaceUnit.hrchy#//@internalElement.1/@attribute.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" uid="_sFJOgJi1Ee2hu8YGHP71PA" borderColor="255,255,255" labelPosition="node" width="5" height="2" color="255,255,255">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdAttribute']/@style"/>
         </ownedStyle>
@@ -295,6 +310,9 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@borderedNodeMappings[name='IdExternalInterface']"/>
       </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_sFB5wZi1Ee2hu8YGHP71PA" borderSize="2" borderSizeComputationExpression="2" foregroundColor="255,255,255">
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@containerMappings[name='IdInternalElement']/@style"/>
@@ -303,6 +321,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_sFKcoZi1Ee2hu8YGHP71PA" name="Resource" width="5" height="2" resizeKind="NSEW">
         <target xmi:type="caex:SupportedRoleClass_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.2/@supportedRoleClass.0"/>
         <semanticElements xmi:type="caex:SupportedRoleClass_._type" href="PickAndPlaceUnit.hrchy#//@internalElement.2/@supportedRoleClass.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" uid="_sFLDsJi1Ee2hu8YGHP71PA" borderColor="255,255,255" labelPosition="node" width="5" height="2" color="255,255,255">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.sirius/description/caex.caex30.odesign#/0/@ownedViewpoints[name='Vphrchy']/@ownedRepresentations[name='VpInstanceHierarchy']/@defaultLayer/@nodeMappings[name='IdSupportedRoleClass']/@style"/>
         </ownedStyle>
